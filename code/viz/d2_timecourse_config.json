@@ -1,0 +1,21 @@
+{
+  "tag": "D2_timecourse",
+  "integrate_donor": false,
+  "shards": [
+    {
+      "donor": "D2",
+      "condition": "Rest",
+      "path": "/Users/meng01/qiuchen/project/hackathon/perturb-seq/perturb-seq_data/cell_level/D2_Rest.assigned_guide.h5ad"
+    },
+    {
+      "donor": "D2",
+      "condition": "Stim8hr",
+      "path": "/Users/meng01/qiuchen/project/hackathon/perturb-seq/perturb-seq_data/cell_level/D2_Stim8hr.assigned_guide.h5ad"
+    },
+    {
+      "donor": "D2",
+      "condition": "Stim48hr",
+      "path": "/Users/meng01/qiuchen/project/hackathon/perturb-seq/perturb-seq_data/cell_level/D2_Stim48hr.assigned_guide.h5ad"
+    }
+  ]
+}

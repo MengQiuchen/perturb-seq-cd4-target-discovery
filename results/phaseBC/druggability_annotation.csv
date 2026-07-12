@@ -1,0 +1,302 @@
+gene,ensg,n_directions,biotype,protein_class,sm_tractable,ab_tractable,best_sm_bucket,has_clinical_drug,n_known_drugs,known_drug_moa,novel_druggable,n_assoc_diseases,chembl_pref_name,chembl_target_id
+LAT,ENSG00000213658,4,protein_coding,SINGLE PROTEIN,False,True,,False,0,,True,1182,Linker for activation of T-cells family member 1,CHEMBL5779
+PLCG1,ENSG00000124181,4,protein_coding,SINGLE PROTEIN,True,True,High-Quality Ligand,False,0,,True,429,"1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase gamma-1",CHEMBL3964
+ARNT,ENSG00000143437,3,protein_coding,SINGLE PROTEIN,True,False,Structure with Ligand,False,0,,True,412,Aryl hydrocarbon receptor nuclear translocator,CHEMBL5618
+CARMIL2,ENSG00000159753,3,protein_coding,(inferred:protein_coding),False,True,,False,0,,True,212,,
+CCNC,ENSG00000112237,3,protein_coding,SINGLE PROTEIN,True,False,Structure with Ligand,False,0,,True,181,Cyclin-C,CHEMBL2401607
+CD247,ENSG00000198821,3,protein_coding,(inferred:protein_coding),True,True,Structure with Ligand,False,0,,True,739,,
+CHD4,ENSG00000111642,3,protein_coding,SINGLE PROTEIN,True,False,Structure with Ligand,False,0,,True,932,Chromodomain-helicase-DNA-binding protein 4,CHEMBL4105742
+CLCC1,ENSG00000121940,3,protein_coding,(inferred:protein_coding),False,True,,False,0,,True,1364,,
+CPSF6,ENSG00000111605,3,protein_coding,SINGLE PROTEIN,True,False,Structure with Ligand,False,0,,True,191,Cleavage and polyadenylation specificity factor subunit 6,CHEMBL6067065
+CYB5R4,ENSG00000065615,3,protein_coding,(inferred:protein_coding),True,False,Structure with Ligand,False,0,,True,142,,
+EIF4G1,ENSG00000114867,3,protein_coding,SINGLE PROTEIN,True,False,Structure with Ligand,False,0,,True,348,Eukaryotic translation initiation factor 4 gamma 1,CHEMBL1741197
+ELOB,ENSG00000103363,3,protein_coding,SINGLE PROTEIN,True,False,Structure with Ligand,False,0,,True,83,Elongin-B,CHEMBL3259468
+EMC2,ENSG00000104412,3,protein_coding,SINGLE PROTEIN,True,True,Structure with Ligand,False,0,,True,97,ER membrane protein complex subunit 2,CHEMBL6066426
+GNPAT,ENSG00000116906,3,protein_coding,SINGLE PROTEIN,False,True,,False,0,,True,1635,Dihydroxyacetone phosphate acyltransferase,CHEMBL4494
+HEXIM1,ENSG00000186834,3,protein_coding,SINGLE PROTEIN,True,False,Med-Quality Pocket,False,0,,True,515,Protein HEXIM1,CHEMBL3120044
+MAEA,ENSG00000090316,3,protein_coding,(inferred:protein_coding),False,True,,False,0,,True,239,,
+MED24,ENSG00000008838,3,protein_coding,(inferred:protein_coding),True,False,Structure with Ligand,False,0,,True,94,,
+MTG1,ENSG00000148824,3,protein_coding,(inferred:protein_coding),True,True,Structure with Ligand,False,0,,True,126,,
+NSD1,ENSG00000165671,3,protein_coding,SINGLE PROTEIN,True,True,Structure with Ligand,False,0,,True,520,"Histone-lysine N-methyltransferase, H3 lysine-36 specific",CHEMBL3588738
+PDCL,ENSG00000136940,3,protein_coding,(inferred:protein_coding),True,False,Structure with Ligand,False,0,,True,35,,
+PGGT1B,ENSG00000164219,3,protein_coding,SINGLE PROTEIN,True,False,High-Quality Ligand,False,0,,True,103,Geranylgeranyl transferase type-1 subunit beta,CHEMBL4135
+POLG,ENSG00000140521,3,protein_coding,SINGLE PROTEIN,True,False,Structure with Ligand,False,0,,True,1016,DNA polymerase subunit gamma-1,CHEMBL2732
+SEL1L,ENSG00000071537,3,protein_coding,(inferred:protein_coding),False,True,,False,0,,True,244,,
+SGF29,ENSG00000176476,3,protein_coding,SINGLE PROTEIN,True,False,High-Quality Pocket,False,0,,True,245,SAGA-associated factor 29,CHEMBL4523425
+SIK3,ENSG00000160584,3,protein_coding,SINGLE PROTEIN,True,False,Structure with Ligand,False,0,,True,2385,Serine/threonine-protein kinase SIK3,CHEMBL6149
+SKIC8,ENSG00000140395,3,protein_coding,SINGLE PROTEIN,True,False,High-Quality Pocket,False,0,,True,154,Superkiller complex protein 8,CHEMBL5725101
+SMARCB1,ENSG00000099956,3,protein_coding,SINGLE PROTEIN,True,False,Structure with Ligand,False,0,,True,923,SWI/SNF-related matrix-associated actin-dependent regulator of chromatin subfamily B member 1,CHEMBL5725049
+SMARCE1,ENSG00000073584,3,protein_coding,SINGLE PROTEIN,True,False,Structure with Ligand,False,0,,True,257,SWI/SNF-related matrix-associated actin-dependent regulator of chromatin subfamily E member 1,CHEMBL5725103
+STAT6,ENSG00000166888,3,protein_coding,SINGLE PROTEIN,True,False,Structure with Ligand,False,0,,True,927,Signal transducer and activator of transcription 6,CHEMBL5401
+TMX1,ENSG00000139921,3,protein_coding,SINGLE PROTEIN,False,True,,False,0,,True,84,Thioredoxin-related transmembrane protein 1,CHEMBL4295941
+TNPO1,ENSG00000083312,3,protein_coding,SINGLE PROTEIN,True,False,Structure with Ligand,False,0,,True,136,Transportin-1,CHEMBL5725070
+TOMM70,ENSG00000154174,3,protein_coding,SINGLE PROTEIN,False,True,,False,0,,True,93,Mitochondrial import receptor subunit TOM70,CHEMBL6066210
+TRIP12,ENSG00000153827,3,protein_coding,(inferred:protein_coding),True,False,Structure with Ligand,False,0,,True,135,,
+VPS45,ENSG00000136631,3,protein_coding,(inferred:protein_coding),False,True,,False,0,,True,127,,
+ZAP70,ENSG00000115085,3,protein_coding,SINGLE PROTEIN,True,True,Structure with Ligand,False,0,,True,561,Tyrosine-protein kinase ZAP-70,CHEMBL2803
+ADAM19,ENSG00000135074,2,protein_coding,(inferred:protein_coding),False,True,,False,0,,True,1018,,
+AEBP2,ENSG00000139154,2,protein_coding,PROTEIN COMPLEX,True,False,Structure with Ligand,False,0,,True,281,EZH1/SUZ12/EED/AEBP2/RBBP4 complex,CHEMBL3137287
+AKR1C3,ENSG00000196139,2,protein_coding,SINGLE PROTEIN,True,False,Structure with Ligand,False,0,,True,514,Aldo-keto reductase family 1 member C3,CHEMBL4681
+ALG1,ENSG00000033011,2,protein_coding,SINGLE PROTEIN,False,True,,False,0,,True,118,Chitobiosyldiphosphodolichol beta-mannosyltransferase,CHEMBL6067414
+ALKBH2,ENSG00000189046,2,protein_coding,SINGLE PROTEIN,True,False,Structure with Ligand,False,0,,True,62,DNA oxidative demethylase ALKBH2,CHEMBL5169164
+AP2A1,ENSG00000196961,2,protein_coding,SINGLE PROTEIN,False,True,,False,0,,True,65,AP-2 complex subunit alpha-1,CHEMBL4295687
+APC,ENSG00000134982,2,protein_coding,SINGLE PROTEIN,True,True,Structure with Ligand,False,0,,True,2152,Adenomatous polyposis coli protein,CHEMBL3233
+ARPC1B,ENSG00000130429,2,protein_coding,SINGLE PROTEIN,True,False,Structure with Ligand,False,0,,True,485,Actin-related protein 2/3 complex subunit 1B,CHEMBL4295656
+ATAD3A,ENSG00000197785,2,protein_coding,SINGLE PROTEIN,False,True,,False,0,,True,183,ATPase family AAA domain-containing protein 3A,CHEMBL6067382
+ATAD5,ENSG00000176208,2,protein_coding,SINGLE PROTEIN,True,False,Structure with Ligand,False,0,,True,139,ATPase family AAA domain-containing protein 5,CHEMBL1741209
+ATG14,ENSG00000126775,2,protein_coding,SINGLE PROTEIN,True,True,Structure with Ligand,False,0,,True,451,Beclin 1-associated autophagy-related key regulator,CHEMBL6196106
+ATP5F1A,ENSG00000152234,2,protein_coding,SINGLE PROTEIN,True,True,Structure with Ligand,False,0,,True,232,"ATP synthase F(1) complex subunit alpha, mitochondrial",CHEMBL2062351
+ATXN7L3,ENSG00000087152,2,protein_coding,(inferred:protein_coding),False,True,,False,0,,True,770,,
+BRPF1,ENSG00000156983,2,protein_coding,SINGLE PROTEIN,True,True,Structure with Ligand,False,0,,True,154,Peregrin,CHEMBL3132741
+CAMK1,ENSG00000134072,2,protein_coding,SINGLE PROTEIN,True,False,Structure with Ligand,False,0,,True,654,Calcium/calmodulin-dependent protein kinase type 1,CHEMBL2493
+CBFB,ENSG00000067955,2,protein_coding,SINGLE PROTEIN,True,False,Structure with Ligand,False,0,,True,2915,Core-binding factor subunit beta,CHEMBL1615386
+CBLB,ENSG00000114423,2,protein_coding,SINGLE PROTEIN,True,True,Structure with Ligand,False,0,,True,414,E3 ubiquitin-protein ligase CBL-B,CHEMBL4879459
+CCDC12,ENSG00000160799,2,protein_coding,(inferred:protein_coding),True,False,Structure with Ligand,False,0,,True,52,,
+CCDC134,ENSG00000100147,2,protein_coding,(inferred:protein_coding),False,True,,False,0,,True,201,,
+CCNT1,ENSG00000129315,2,protein_coding,SINGLE PROTEIN,True,False,Structure with Ligand,False,0,,True,151,Cyclin-T1,CHEMBL2108
+CDC25B,ENSG00000101224,2,protein_coding,SINGLE PROTEIN,True,False,Structure with Ligand,False,0,,True,214,M-phase inducer phosphatase 2,CHEMBL4804
+CLPB,ENSG00000162129,2,protein_coding,(inferred:protein_coding),True,False,Structure with Ligand,False,0,,True,182,,
+COG6,ENSG00000133103,2,protein_coding,SINGLE PROTEIN,False,True,,False,0,,True,372,Conserved oligomeric Golgi complex subunit 6,CHEMBL4105962
+COX6C,ENSG00000164919,2,protein_coding,SINGLE PROTEIN,True,True,Structure with Ligand,False,0,,True,167,Cytochrome c oxidase subunit 6C,CHEMBL6066369
+CSDE1,ENSG00000009307,2,protein_coding,SINGLE PROTEIN,False,True,,False,0,,True,125,Cold shock domain-containing protein E1,CHEMBL6067007
+CTPS1,ENSG00000171793,2,protein_coding,SINGLE PROTEIN,True,False,Structure with Ligand,False,0,,True,171,CTP synthase 1,CHEMBL5291523
+CYCS,ENSG00000172115,2,protein_coding,SINGLE PROTEIN,True,False,Structure with Ligand,False,0,,True,1909,Cytochrome c,CHEMBL2189163
+DCK,ENSG00000156136,2,protein_coding,SINGLE PROTEIN,True,False,Structure with Ligand,False,0,,True,278,Deoxycytidine kinase,CHEMBL2447
+DDX39B,ENSG00000198563,2,protein_coding,SINGLE PROTEIN,True,False,Structure with Ligand,False,0,,True,115,Spliceosome RNA helicase DDX39B,CHEMBL6066325
+DENR,ENSG00000139726,2,protein_coding,SINGLE PROTEIN,True,False,Structure with Ligand,False,0,,True,75,Density-regulated protein,CHEMBL5724775
+DIS3L,ENSG00000166938,2,protein_coding,(inferred:protein_coding),False,True,,False,0,,True,69,,
+DLAT,ENSG00000150768,2,protein_coding,SINGLE PROTEIN,True,False,Structure with Ligand,False,0,,True,300,"Dihydrolipoyllysine-residue acetyltransferase component of pyruvate dehydrogenase complex, mitochondrial",CHEMBL4523180
+DNAAF2,ENSG00000165506,2,protein_coding,(inferred:protein_coding),False,True,,False,0,,True,593,,
+DOHH,ENSG00000129932,2,protein_coding,SINGLE PROTEIN,True,False,Structure with Ligand,False,0,,True,65,Deoxyhypusine hydroxylase,CHEMBL4523441
+DOLPP1,ENSG00000167130,2,protein_coding,(inferred:protein_coding),False,True,,False,0,,True,21,,
+DOP1B,ENSG00000142197,2,protein_coding,(inferred:protein_coding),False,True,,False,0,,True,64,,
+EFR3A,ENSG00000132294,2,protein_coding,(inferred:protein_coding),False,True,,False,0,,True,80,,
+ELAVL1,ENSG00000066044,2,protein_coding,SINGLE PROTEIN,True,False,High-Quality Ligand,False,0,,True,562,ELAV-like protein 1,CHEMBL1250379
+ENO1,ENSG00000074800,2,protein_coding,SINGLE PROTEIN,True,True,Structure with Ligand,False,0,,True,532,Alpha-enolase,CHEMBL3298
+EPB41L3,ENSG00000082397,2,protein_coding,(inferred:protein_coding),True,True,Structure with Ligand,False,0,,True,391,,
+FANCL,ENSG00000115392,2,protein_coding,(inferred:protein_coding),True,False,Structure with Ligand,False,0,,True,421,,
+FLCN,ENSG00000154803,2,protein_coding,(inferred:protein_coding),True,True,Structure with Ligand,False,0,,True,493,,
+FZD6,ENSG00000164930,2,protein_coding,(inferred:protein_coding),False,True,,False,0,,True,252,,
+GAB2,ENSG00000033327,2,protein_coding,(inferred:protein_coding),True,True,Structure with Ligand,False,0,,True,519,,
+GET1,ENSG00000182093,2,protein_coding,(inferred:protein_coding),False,True,,False,0,,True,53,,
+GJC1,ENSG00000182963,2,protein_coding,(inferred:protein_coding),False,True,,False,0,,True,232,,
+GNE,ENSG00000159921,2,protein_coding,SINGLE PROTEIN,True,False,Structure with Ligand,False,0,,True,1285,Bifunctional UDP-N-acetylglucosamine 2-epimerase/N-acetylmannosamine kinase,CHEMBL4523504
+GNG5,ENSG00000174021,2,protein_coding,(inferred:protein_coding),False,True,,False,0,,True,167,,
+GNPNAT1,ENSG00000100522,2,protein_coding,(inferred:protein_coding),True,True,Structure with Ligand,False,0,,True,96,,
+GOLT1B,ENSG00000111711,2,protein_coding,SINGLE PROTEIN,False,True,,False,0,,True,104,Vesicle transport protein GOT1B,CHEMBL6066348
+GPI,ENSG00000105220,2,protein_coding,SINGLE PROTEIN,True,True,Structure with Ligand,False,0,,True,613,Glucose-6-phosphate isomerase,CHEMBL4295702
+GSS,ENSG00000100983,2,protein_coding,SINGLE PROTEIN,True,False,Structure with Ligand,False,0,,True,278,Glutathione synthetase,CHEMBL6066521
+GTF2H5,ENSG00000272047,2,protein_coding,(inferred:protein_coding),True,False,Structure with Ligand,False,0,,True,94,,
+HMBS,ENSG00000256269,2,protein_coding,SINGLE PROTEIN,True,False,Structure with Ligand,False,0,,True,2087,Porphobilinogen deaminase,CHEMBL3988601
+IBA57,ENSG00000181873,2,protein_coding,(inferred:protein_coding),True,False,Structure with Ligand,False,0,,True,58,,
+IL7R,ENSG00000168685,2,protein_coding,(inferred:protein_coding),False,True,,False,0,,True,872,,
+INO80B,ENSG00000115274,2,protein_coding,(inferred:protein_coding),True,False,Structure with Ligand,False,0,,True,15,,
+IST1,ENSG00000182149,2,protein_coding,(inferred:protein_coding),False,True,,False,0,,True,191,,
+KDM8,ENSG00000155666,2,protein_coding,SINGLE PROTEIN,True,False,Structure with Ligand,False,0,,True,377,Bifunctional peptidase and arginyl-hydroxylase JMJD5,CHEMBL4523396
+KMT2E,ENSG00000005483,2,protein_coding,SINGLE PROTEIN,False,True,,False,0,,True,321,Inactive histone-lysine N-methyltransferase 2E,CHEMBL4523393
+KTN1,ENSG00000126777,2,protein_coding,SINGLE PROTEIN,False,True,,False,0,,True,220,Kinectin,CHEMBL6066522
+LETM2,ENSG00000165046,2,protein_coding,(inferred:protein_coding),False,True,,False,0,,True,51,,
+LIG3,ENSG00000005156,2,protein_coding,SINGLE PROTEIN,True,False,Structure with Ligand,False,0,,True,157,DNA ligase 3,CHEMBL4295773
+LIN7C,ENSG00000148943,2,protein_coding,(inferred:protein_coding),False,True,,False,0,,True,664,,
+LMTK2,ENSG00000164715,2,protein_coding,SINGLE PROTEIN,True,True,Druggable Family,False,0,,True,194,Serine/threonine-protein kinase LMTK2,CHEMBL6067300
+LRPPRC,ENSG00000138095,2,protein_coding,SINGLE PROTEIN,True,False,Structure with Ligand,False,0,,True,243,"Leucine-rich PPR motif-containing protein, mitochondrial",CHEMBL4295762
+MAX,ENSG00000125952,2,protein_coding,SINGLE PROTEIN,True,False,Structure with Ligand,False,0,,True,380,Protein max,CHEMBL1250363
+ME3,ENSG00000151376,2,protein_coding,SINGLE PROTEIN,True,False,Structure with Ligand,False,0,,True,797,"NADP-dependent malic enzyme, mitochondrial",CHEMBL6182
+MED1,ENSG00000125686,2,protein_coding,SINGLE PROTEIN,True,False,Structure with Ligand,False,0,,True,784,Mediator of RNA polymerase II transcription subunit 1,CHEMBL5724624
+MED15,ENSG00000099917,2,protein_coding,(inferred:protein_coding),True,False,Structure with Ligand,False,0,,True,116,,
+MEST,ENSG00000106484,2,protein_coding,SINGLE PROTEIN,False,True,,False,0,,True,163,Mesoderm-specific transcript homolog protein,CHEMBL4523324
+METTL1,ENSG00000037897,2,protein_coding,(inferred:protein_coding),True,False,Structure with Ligand,False,0,,True,198,,
+MFSD6,ENSG00000151690,2,protein_coding,(inferred:protein_coding),False,True,,False,0,,True,63,,
+MIA2,ENSG00000150527,2,protein_coding,(inferred:protein_coding),False,True,,False,0,,True,158,,
+MMGT1,ENSG00000169446,2,protein_coding,SINGLE PROTEIN,True,True,Structure with Ligand,False,0,,True,23,ER membrane protein complex subunit 5,CHEMBL6067286
+MPG,ENSG00000103152,2,protein_coding,SINGLE PROTEIN,True,False,High-Quality Ligand,False,0,,True,193,DNA-3-methyladenine glycosylase,CHEMBL3396943
+MPI,ENSG00000178802,2,protein_coding,SINGLE PROTEIN,True,True,High-Quality Ligand,False,0,,True,161,Mannose-6-phosphate isomerase,CHEMBL2758
+MTCH2,ENSG00000109919,2,protein_coding,SINGLE PROTEIN,False,True,,False,0,,True,205,Mitochondrial carrier homolog 2,CHEMBL4523511
+MTPAP,ENSG00000107951,2,protein_coding,(inferred:protein_coding),True,False,Med-Quality Pocket,False,0,,True,70,,
+MYC,ENSG00000136997,2,protein_coding,SINGLE PROTEIN,True,False,Structure with Ligand,False,0,,True,2146,Myc proto-oncogene protein,CHEMBL1250348
+N6AMT1,ENSG00000156239,2,protein_coding,(inferred:protein_coding),True,False,Structure with Ligand,False,0,,True,79,,
+NAA30,ENSG00000139977,2,protein_coding,(inferred:protein_coding),True,False,Structure with Ligand,False,0,,True,38,,
+NCKAP1L,ENSG00000123338,2,protein_coding,SINGLE PROTEIN,False,True,,False,0,,True,465,Nck-associated protein 1-like,CHEMBL5724620
+NDFIP2,ENSG00000102471,2,protein_coding,(inferred:protein_coding),False,True,,False,0,,True,303,,
+NDRG1,ENSG00000104419,2,protein_coding,SINGLE PROTEIN,False,True,,False,0,,True,2724,Protein NDRG1,CHEMBL4295916
+NRBP1,ENSG00000115216,2,protein_coding,(inferred:protein_coding),True,False,Druggable Family,False,0,,True,122,,
+ORAI1,ENSG00000276045,2,protein_coding,SINGLE PROTEIN,True,True,High-Quality Ligand,False,0,,True,1342,Calcium release-activated calcium channel protein 1,CHEMBL2384891
+OXA1L,ENSG00000155463,2,protein_coding,SINGLE PROTEIN,True,True,Structure with Ligand,False,0,,True,114,Mitochondrial inner membrane protein OXA1L,CHEMBL6067076
+PDHA1,ENSG00000131828,2,protein_coding,SINGLE PROTEIN,True,False,Structure with Ligand,False,0,,True,345,"Pyruvate dehydrogenase E1 component subunit alpha, somatic form, mitochondrial",CHEMBL2092
+PGAP2,ENSG00000148985,2,protein_coding,(inferred:protein_coding),False,True,,False,0,,True,1054,,
+PHIP,ENSG00000146247,2,protein_coding,SINGLE PROTEIN,True,False,Structure with Ligand,False,0,,True,253,PH-interacting protein,CHEMBL2176773
+PITRM1,ENSG00000107959,2,protein_coding,SINGLE PROTEIN,True,False,Structure with Ligand,False,0,,True,235,"Presequence protease, mitochondrial",CHEMBL3124731
+PKM,ENSG00000067225,2,protein_coding,SINGLE PROTEIN,True,True,Structure with Ligand,False,0,,True,676,Pyruvate kinase PKM,CHEMBL1075189
+POLRMT,ENSG00000099821,2,protein_coding,SINGLE PROTEIN,True,False,Structure with Ligand,False,0,,True,151,"DNA-directed RNA polymerase, mitochondrial",CHEMBL3120041
+PPCDC,ENSG00000138621,2,protein_coding,(inferred:protein_coding),True,False,Structure with Ligand,False,0,,True,57,,
+PPCS,ENSG00000127125,2,protein_coding,(inferred:protein_coding),True,False,Structure with Ligand,False,0,,True,45,,
+PPP3R1,ENSG00000221823,2,protein_coding,SINGLE PROTEIN,True,True,Structure with Ligand,False,0,,True,589,Calcineurin subunit B type 1,CHEMBL2082
+PPP4C,ENSG00000149923,2,protein_coding,SINGLE PROTEIN,False,True,,False,0,,True,540,Serine/threonine-protein phosphatase 4 catalytic subunit,CHEMBL5465552
+PRKAR1A,ENSG00000108946,2,protein_coding,SINGLE PROTEIN,True,True,Structure with Ligand,False,0,,True,807,cAMP-dependent protein kinase type I-alpha regulatory subunit,CHEMBL4928
+PTEN,ENSG00000171862,2,protein_coding,SINGLE PROTEIN,True,True,Structure with Ligand,False,0,,True,2158,"Phosphatidylinositol 3,4,5-trisphosphate 3-phosphatase and dual-specificity protein phosphatase PTEN",CHEMBL2052032
+PTPN2,ENSG00000175354,2,protein_coding,SINGLE PROTEIN,True,True,Structure with Ligand,False,0,,True,728,Tyrosine-protein phosphatase non-receptor type 2,CHEMBL3807
+RAB11FIP1,ENSG00000156675,2,protein_coding,(inferred:protein_coding),True,False,Structure with Ligand,False,0,,True,79,,
+RAP2A,ENSG00000125249,2,protein_coding,(inferred:protein_coding),True,True,Structure with Ligand,False,0,,True,130,,
+RB1CC1,ENSG00000023287,2,protein_coding,(inferred:protein_coding),True,False,Structure with Ligand,False,0,,True,540,,
+RBFA,ENSG00000101546,2,protein_coding,(inferred:protein_coding),True,False,Structure with Ligand,False,0,,True,20,,
+RFT1,ENSG00000163933,2,protein_coding,SINGLE PROTEIN,False,True,,False,0,,True,146,Man(5)GlcNAc(2)-PP-dolichol translocation protein RFT1,CHEMBL6067273
+RICTOR,ENSG00000164327,2,protein_coding,SINGLE PROTEIN,True,True,Structure with Ligand,False,0,,True,506,Rapamycin-insensitive companion of mTOR,CHEMBL1795179
+RNASEH2A,ENSG00000104889,2,protein_coding,(inferred:protein_coding),True,False,High-Quality Pocket,False,0,,True,216,,
+RNFT2,ENSG00000135119,2,protein_coding,(inferred:protein_coding),False,True,,False,0,,True,486,,
+SEC23A,ENSG00000100934,2,protein_coding,SINGLE PROTEIN,True,True,Structure with Ligand,False,0,,True,365,Protein transport protein Sec23A,CHEMBL4295827
+SIN3B,ENSG00000127511,2,protein_coding,(inferred:protein_coding),True,True,Structure with Ligand,False,0,,True,89,,
+SLC35B1,ENSG00000121073,2,protein_coding,(inferred:protein_coding),False,True,,False,0,,True,40,,
+SMARCA5,ENSG00000153147,2,protein_coding,SINGLE PROTEIN,True,False,Structure with Ligand,False,0,,True,185,SWI/SNF-related matrix-associated actin-dependent regulator of chromatin subfamily A member 5,CHEMBL6066387
+SMG1,ENSG00000157106,2,protein_coding,SINGLE PROTEIN,True,False,Structure with Ligand,False,0,,True,486,Serine/threonine-protein kinase SMG1,CHEMBL1795195
+SMG9,ENSG00000105771,2,protein_coding,(inferred:protein_coding),True,False,Structure with Ligand,False,0,,True,2300,,
+SMPD1,ENSG00000166311,2,protein_coding,SINGLE PROTEIN,True,True,Structure with Ligand,False,0,,True,1997,Sphingomyelin phosphodiesterase,CHEMBL2760
+SND1,ENSG00000197157,2,protein_coding,SINGLE PROTEIN,True,False,Structure with Ligand,False,0,,True,542,Staphylococcal nuclease domain-containing protein 1,CHEMBL3879865
+SRP9,ENSG00000143742,2,protein_coding,SINGLE PROTEIN,True,False,Structure with Ligand,False,0,,True,122,Signal recognition particle 9 kDa protein,CHEMBL5725084
+STAT5A,ENSG00000126561,2,protein_coding,SINGLE PROTEIN,True,False,Structure with Ligand,False,0,,True,516,Signal transducer and activator of transcription 5A,CHEMBL5403
+STAT5B,ENSG00000173757,2,protein_coding,SINGLE PROTEIN,True,False,High-Quality Ligand,False,0,,True,1003,Signal transducer and activator of transcription 5B,CHEMBL5817
+STIP1,ENSG00000168439,2,protein_coding,SINGLE PROTEIN,True,True,Structure with Ligand,False,0,,True,204,Stress-induced-phosphoprotein 1,CHEMBL4523216
+STK11,ENSG00000118046,2,protein_coding,SINGLE PROTEIN,True,False,Structure with Ligand,False,0,,True,1059,Serine/threonine-protein kinase STK11,CHEMBL5606
+TAF13,ENSG00000197780,2,protein_coding,(inferred:protein_coding),True,False,Structure with Ligand,False,0,,True,37,,
+TFAM,ENSG00000108064,2,protein_coding,SINGLE PROTEIN,True,False,Structure with Ligand,False,0,,True,512,"Transcription factor A, mitochondrial",CHEMBL6067181
+TFB1M,ENSG00000029639,2,protein_coding,(inferred:protein_coding),True,False,Structure with Ligand,False,0,,True,132,,
+TIMM10,ENSG00000134809,2,protein_coding,SINGLE PROTEIN,True,True,Structure with Ligand,False,0,,True,31,Mitochondrial import inner membrane translocase subunit Tim10,CHEMBL6067408
+TIMP1,ENSG00000102265,2,protein_coding,(inferred:protein_coding),False,True,,False,0,,True,2170,,
+TMED9,ENSG00000184840,2,protein_coding,SINGLE PROTEIN,True,True,Structure with Ligand,False,0,,True,80,Transmembrane emp24 domain-containing protein 9,CHEMBL6066330
+TMEM234,ENSG00000160055,2,protein_coding,(inferred:protein_coding),False,True,,False,0,,True,7,,
+TOR1A,ENSG00000136827,2,protein_coding,(inferred:protein_coding),True,True,Structure with Ligand,False,0,,True,2041,,
+TPST2,ENSG00000128294,2,protein_coding,SINGLE PROTEIN,True,True,Structure with Ligand,False,0,,True,302,Protein-tyrosine sulfotransferase 2,CHEMBL3178
+TRAF6,ENSG00000175104,2,protein_coding,SINGLE PROTEIN,False,True,,False,0,,True,1875,TNF receptor-associated factor 6,CHEMBL3588728
+TSC1,ENSG00000165699,2,protein_coding,(inferred:protein_coding),False,True,,False,0,,True,1254,,
+UBE2L3,ENSG00000185651,2,protein_coding,SINGLE PROTEIN,True,False,Structure with Ligand,False,0,,True,133,Ubiquitin-conjugating enzyme E2 L3,CHEMBL4105871
+UFM1,ENSG00000120686,2,protein_coding,SINGLE PROTEIN,True,False,Structure with Ligand,False,0,,True,243,Ubiquitin-fold modifier 1,CHEMBL6066523
+UQCRC2,ENSG00000140740,2,protein_coding,SINGLE PROTEIN,True,True,Structure with Ligand,False,0,,True,172,"Cytochrome b-c1 complex subunit 2, mitochondrial",CHEMBL6066941
+USP7,ENSG00000187555,2,protein_coding,SINGLE PROTEIN,True,False,Structure with Ligand,False,0,,True,358,Ubiquitin carboxyl-terminal hydrolase 7,CHEMBL2157850
+VAV1,ENSG00000141968,2,protein_coding,SINGLE PROTEIN,True,True,Structure with Ligand,False,0,,True,389,Proto-oncogene vav,CHEMBL3259472
+VBP1,ENSG00000155959,2,protein_coding,(inferred:protein_coding),True,False,Structure with Ligand,False,0,,True,58,,
+WAS,ENSG00000015285,2,protein_coding,(inferred:protein_coding),True,True,Structure with Ligand,False,0,,True,766,,
+XIAP,ENSG00000101966,2,protein_coding,SINGLE PROTEIN,True,False,Structure with Ligand,False,0,,True,913,E3 ubiquitin-protein ligase XIAP,CHEMBL4198
+YTHDF2,ENSG00000198492,2,protein_coding,SINGLE PROTEIN,True,False,Structure with Ligand,False,0,,True,452,YTH domain-containing family protein 2,CHEMBL4295992
+ZNF622,ENSG00000173545,2,protein_coding,(inferred:protein_coding),True,False,Structure with Ligand,False,0,,True,56,,
+SENP5,ENSG00000119231,4,protein_coding,SINGLE PROTEIN,False,False,,False,0,,False,76,Sentrin-specific protease 5,CHEMBL4802012
+ATP2A2,ENSG00000174437,3,protein_coding,SINGLE PROTEIN,True,True,Advanced Clinical,True,2,Sarcoplasmic/endoplasmic reticulum calcium ATPase 2 activator [ACTIVATOR],False,1486,Sarcoplasmic/endoplasmic reticulum calcium ATPase 2,CHEMBL3901
+BCL10,ENSG00000142867,3,protein_coding,(inferred:protein_coding),False,False,,False,0,,False,348,,
+BHLHE40,ENSG00000134107,3,protein_coding,(inferred:protein_coding),False,False,,False,0,,False,696,,
+CD2,ENSG00000116824,3,protein_coding,SINGLE PROTEIN,False,True,,True,2,T-cell surface antigen CD2 inhibitor [INHIBITOR],False,601,T-cell surface antigen CD2,CHEMBL2040
+CD28,ENSG00000178562,3,protein_coding,SINGLE PROTEIN,True,True,Structure with Ligand,True,2,T-cell-specific surface glycoprotein CD28 antagonist [ANTAGONIST]; T-cell-specific surface glycoprotein CD28 agonist [AGONIST],False,985,T-cell-specific surface glycoprotein CD28,CHEMBL5191
+CD3E,ENSG00000198851,3,protein_coding,SINGLE PROTEIN,True,True,Structure with Ligand,True,22,T-cell surface glycoprotein CD3 epsilon chain binding agent [BINDING AGENT]; T-cell surface glycoprotein CD3 epsilon chain other [OTHER]; T-cell surface glycoprotein CD3 epsilon chain inhibitor [INHIBITOR]; T-cell surface glycoprotein CD3 epsilon chain cross-linking agent [CROSS-LINKING AGENT],False,403,T-cell surface glycoprotein CD3 epsilon chain,CHEMBL1975
+GTF3C6,ENSG00000155115,3,protein_coding,(inferred:protein_coding),False,False,,False,0,,False,21,,
+IL2RB,ENSG00000100385,3,protein_coding,SINGLE PROTEIN,True,True,Structure with Ligand,True,10,Interleukin-2 receptor beta chain inhibitor [INHIBITOR],False,684,Interleukin-2 receptor subunit beta,CHEMBL3276
+IL4R,ENSG00000077238,3,protein_coding,SINGLE PROTEIN,False,True,,True,2,Interleukin-4 receptor subunit alpha antagonist [ANTAGONIST],False,754,Interleukin-4 receptor subunit alpha,CHEMBL3580490
+INPP5D,ENSG00000168918,3,protein_coding,SINGLE PROTEIN,True,True,Advanced Clinical,True,1,"Phosphatidylinositol-3,4,5-trisphosphate 5-phosphatase 1 activator [ACTIVATOR]",False,944,"Phosphatidylinositol 3,4,5-trisphosphate 5-phosphatase 1",CHEMBL1781870
+ITK,ENSG00000113263,3,protein_coding,SINGLE PROTEIN,True,True,Approved Drug,True,4,Tyrosine-protein kinase ITK/TSK inhibitor [INHIBITOR],False,690,Tyrosine-protein kinase ITK/TSK,CHEMBL2959
+KDM1A,ENSG00000004487,3,protein_coding,SINGLE PROTEIN,True,False,Advanced Clinical,True,1,Lysine-specific histone demethylase 1 inhibitor [INHIBITOR],False,705,Lysine-specific histone demethylase 1A,CHEMBL6136
+LEO1,ENSG00000166477,3,protein_coding,SINGLE PROTEIN,False,False,,False,0,,False,71,RNA polymerase-associated protein LEO1,CHEMBL5724636
+MALT1,ENSG00000172175,3,protein_coding,SINGLE PROTEIN,True,False,Approved Drug,True,1,Mucosa-associated lymphoid tissue lymphoma translocation protein 1 inhibitor [INHIBITOR],False,409,Mucosa-associated lymphoid tissue lymphoma translocation protein 1,CHEMBL3632452
+MED12,ENSG00000184634,3,protein_coding,SINGLE PROTEIN,False,False,,False,0,,False,482,Mediator of RNA polymerase II transcription subunit 12,CHEMBL5724623
+MEN1,ENSG00000133895,3,protein_coding,SINGLE PROTEIN,True,False,Phase 1 Clinical,True,3,Menin inhibitor [INHIBITOR],False,1023,Menin,CHEMBL1615381
+MTA2,ENSG00000149480,3,protein_coding,SINGLE PROTEIN,False,False,,False,0,,False,457,Metastasis-associated protein MTA2,CHEMBL5724628
+NDUFAF3,ENSG00000178057,3,protein_coding,PROTEIN COMPLEX,True,False,Approved Drug,True,3,Mitochondrial complex I (NADH dehydrogenase) inhibitor [INHIBITOR],False,290,Mitochondrial complex I (NADH dehydrogenase),CHEMBL2363065
+RNF20,ENSG00000155827,3,protein_coding,(inferred:protein_coding),False,False,,False,0,,False,257,,
+SUPT20H,ENSG00000102710,3,protein_coding,(inferred:protein_coding),False,False,,False,0,,False,129,,
+TADA1,ENSG00000152382,3,protein_coding,(inferred:protein_coding),False,False,,False,0,,False,339,,
+TADA2B,ENSG00000173011,3,protein_coding,(inferred:protein_coding),False,False,,False,0,,False,37,,
+TAF6L,ENSG00000162227,3,protein_coding,(inferred:protein_coding),False,False,,False,0,,False,19,,
+UBXN1,ENSG00000162191,3,protein_coding,SINGLE PROTEIN,False,False,,False,0,,False,56,UBX domain-containing protein 1,CHEMBL6067134
+WAC,ENSG00000095787,3,protein_coding,(inferred:protein_coding),False,False,,False,0,,False,167,,
+ACLY,ENSG00000131473,2,protein_coding,SINGLE PROTEIN,True,True,Approved Drug,True,1,ATP-citrate synthase inhibitor [INHIBITOR],False,663,ATP-citrate synthase,CHEMBL3720
+AHR,ENSG00000106546,2,protein_coding,SINGLE PROTEIN,True,False,Approved Drug,True,1,Aryl hydrocarbon receptor agonist [AGONIST],False,3204,Aryl hydrocarbon receptor,CHEMBL3201
+ANP32B,ENSG00000136938,2,protein_coding,SINGLE PROTEIN,False,False,,False,0,,False,864,Acidic leucine-rich nuclear phosphoprotein 32 family member B,CHEMBL4295917
+ARID4B,ENSG00000054267,2,protein_coding,(inferred:protein_coding),False,False,,False,0,,False,284,,
+ATF7IP2,ENSG00000166669,2,protein_coding,(inferred:protein_coding),False,False,,False,0,,False,102,,
+BAP1,ENSG00000163930,2,protein_coding,SINGLE PROTEIN,False,False,,False,0,,False,604,Ubiquitin carboxyl-terminal hydrolase BAP1,CHEMBL1293314
+BATF,ENSG00000156127,2,protein_coding,(inferred:protein_coding),False,False,,False,0,,False,230,,
+BTAF1,ENSG00000095564,2,protein_coding,(inferred:protein_coding),False,False,,False,0,,False,57,,
+C18orf32,ENSG00000177576,2,protein_coding,(inferred:protein_coding),False,False,,False,0,,False,23,,
+CARS2,ENSG00000134905,2,protein_coding,(inferred:protein_coding),False,False,,False,0,,False,243,,
+CCDC22,ENSG00000101997,2,protein_coding,SINGLE PROTEIN,False,False,,False,0,,False,69,Coiled-coil domain-containing protein 22,CHEMBL6066516
+CD3G,ENSG00000160654,2,protein_coding,PROTEIN COMPLEX,True,True,Structure with Ligand,True,16,T cell surface glycoprotein CD3 inhibitor [INHIBITOR]; T cell surface glycoprotein CD3 cross-linking agent [CROSS-LINKING AGENT],False,263,T cell surface glycoprotein CD3,CHEMBL2364168
+CEP135,ENSG00000174799,2,protein_coding,(inferred:protein_coding),False,False,,False,0,,False,743,,
+COASY,ENSG00000068120,2,protein_coding,SINGLE PROTEIN,False,False,,False,0,,False,128,Bifunctional coenzyme A synthase,CHEMBL4105867
+COMMD5,ENSG00000170619,2,protein_coding,(inferred:protein_coding),False,False,,False,0,,False,43,,
+COMMD7,ENSG00000149600,2,protein_coding,(inferred:protein_coding),False,False,,False,0,,False,74,,
+COX19,ENSG00000240230,2,protein_coding,(inferred:protein_coding),False,False,,False,0,,False,37,,
+CREBBP,ENSG00000005339,2,protein_coding,SINGLE PROTEIN,True,False,Structure with Ligand,False,1,,False,2727,CREB-binding protein,CHEMBL5747
+CROT,ENSG00000005469,2,protein_coding,SINGLE PROTEIN,False,False,,False,0,,False,92,Peroxisomal carnitine O-octanoyltransferase,CHEMBL2206
+CXXC1,ENSG00000154832,2,protein_coding,SINGLE PROTEIN,False,False,,False,0,,False,83,CXXC-type zinc finger protein 1,CHEMBL5169201
+DHX30,ENSG00000132153,2,protein_coding,SINGLE PROTEIN,False,False,,False,0,,False,260,ATP-dependent RNA helicase DHX30,CHEMBL4105814
+DHX36,ENSG00000174953,2,protein_coding,SINGLE PROTEIN,False,False,,False,0,,False,135,ATP-dependent DNA/RNA helicase DHX36,CHEMBL2040704
+DNTTIP1,ENSG00000101457,2,protein_coding,(inferred:protein_coding),False,False,,False,0,,False,109,,
+DPH5,ENSG00000117543,2,protein_coding,(inferred:protein_coding),False,False,,False,0,,False,46,,
+E2F4,ENSG00000205250,2,protein_coding,PROTEIN FAMILY,False,False,,False,1,E2F inhibitor [INHIBITOR],False,384,E2F,CHEMBL4630726
+ECSIT,ENSG00000130159,2,protein_coding,(inferred:protein_coding),False,False,,False,0,,False,195,,
+EGR2,ENSG00000122877,2,protein_coding,(inferred:protein_coding),False,False,,False,0,,False,3892,,
+EIF4G2,ENSG00000110321,2,protein_coding,SINGLE PROTEIN,False,False,,False,0,,False,254,Eukaryotic translation initiation factor 4 gamma 2,CHEMBL6067400
+FAM204A,ENSG00000165669,2,protein_coding,(inferred:protein_coding),False,False,,False,0,,False,39,,
+FBXO32,ENSG00000156804,2,protein_coding,(inferred:protein_coding),False,False,,False,0,,False,313,,
+FNBP4,ENSG00000109920,2,protein_coding,(inferred:protein_coding),False,False,,False,0,,False,83,,
+GABPB1,ENSG00000104064,2,protein_coding,(inferred:protein_coding),False,False,,False,0,,False,449,,
+GATA3,ENSG00000107485,2,protein_coding,(inferred:protein_coding),False,False,,False,0,,False,4855,,
+GPT2,ENSG00000166123,2,protein_coding,(inferred:protein_coding),False,False,,False,0,,False,179,,
+GRSF1,ENSG00000132463,2,protein_coding,(inferred:protein_coding),False,False,,False,0,,False,83,,
+GTF3C5,ENSG00000148308,2,protein_coding,SINGLE PROTEIN,False,False,,False,0,,False,29,General transcription factor 3C polypeptide 5,CHEMBL6067392
+HCCS,ENSG00000004961,2,protein_coding,SINGLE PROTEIN,False,False,,False,0,,False,127,Holocytochrome c-type synthase,CHEMBL6066869
+HEATR3,ENSG00000155393,2,protein_coding,(inferred:protein_coding),False,False,,False,0,,False,80,,
+HMGXB3,ENSG00000113716,2,protein_coding,(inferred:protein_coding),False,False,,False,0,,False,39,,
+HNRNPM,ENSG00000099783,2,protein_coding,SINGLE PROTEIN,False,False,,False,0,,False,203,Heterogeneous nuclear ribonucleoprotein M,CHEMBL5291610
+IFNGR1,ENSG00000027697,2,protein_coding,PROTEIN COMPLEX,True,True,Structure with Ligand,False,1,Interferon gamma receptor agonist [AGONIST],False,1004,Interferon gamma receptor,CHEMBL2364171
+IL2RA,ENSG00000134460,2,protein_coding,SINGLE PROTEIN,False,True,,True,7,Interleukin-2 receptor alpha chain antagonist [ANTAGONIST]; Interleukin-2 receptor alpha chain binding agent [BINDING AGENT],False,1469,Interleukin-2 receptor subunit alpha,CHEMBL1778
+IMPDH2,ENSG00000178035,2,protein_coding,SINGLE PROTEIN,True,True,Approved Drug,True,7,,False,335,Inosine-5'-monophosphate dehydrogenase 2,CHEMBL2002
+INTS10,ENSG00000104613,2,protein_coding,(inferred:protein_coding),False,False,,False,0,,False,215,,
+INTS14,ENSG00000138614,2,protein_coding,(inferred:protein_coding),False,False,,False,0,,False,42,,
+INTS15,ENSG00000146576,2,protein_coding,(inferred:protein_coding),False,False,,False,0,,False,1675,,
+IRF2BP1,ENSG00000170604,2,protein_coding,(inferred:protein_coding),False,False,,False,0,,False,35,,
+IRF8,ENSG00000140968,2,protein_coding,(inferred:protein_coding),False,False,,False,0,,False,682,,
+JUNB,ENSG00000171223,2,protein_coding,(inferred:protein_coding),False,False,,False,0,,False,558,,
+LBH,ENSG00000213626,2,protein_coding,(inferred:protein_coding),False,False,,False,0,,False,198,,
+LCK,ENSG00000182866,2,protein_coding,SINGLE PROTEIN,True,True,Approved Drug,True,8,Tyrosine-protein kinase LCK inhibitor [INHIBITOR],False,553,Tyrosine-protein kinase Lck,CHEMBL258
+MIPEP,ENSG00000027001,2,protein_coding,(inferred:protein_coding),False,False,,False,0,,False,76,,
+MTX2,ENSG00000128654,2,protein_coding,SINGLE PROTEIN,False,False,,False,0,,False,107,Metaxin-2,CHEMBL6066373
+NAB2,ENSG00000166886,2,protein_coding,(inferred:protein_coding),False,False,,False,0,,False,225,,
+NAF1,ENSG00000145414,2,protein_coding,SINGLE PROTEIN,False,False,,False,0,,False,126,H/ACA ribonucleoprotein complex non-core subunit NAF1,CHEMBL5724617
+NCAPG2,ENSG00000146918,2,protein_coding,(inferred:protein_coding),False,False,,False,0,,False,118,,
+NDUFA9,ENSG00000139180,2,protein_coding,PROTEIN COMPLEX,True,False,Approved Drug,True,3,Mitochondrial complex I (NADH dehydrogenase) inhibitor [INHIBITOR],False,327,Mitochondrial complex I (NADH dehydrogenase),CHEMBL2363065
+NFKB1,ENSG00000109320,2,protein_coding,SINGLE PROTEIN,True,True,Advanced Clinical,True,1,,False,2909,Nuclear factor NF-kappa-B p105 subunit,CHEMBL3251
+NFKB2,ENSG00000077150,2,protein_coding,SINGLE PROTEIN,True,False,Advanced Clinical,True,1,,False,819,Nuclear factor NF-kappa-B p100 subunit,CHEMBL3003
+NFRKB,ENSG00000170322,2,protein_coding,SINGLE PROTEIN,False,False,,False,0,,False,58,Nuclear factor related to kappa-B-binding protein,CHEMBL5725193
+NXT1,ENSG00000132661,2,protein_coding,(inferred:protein_coding),False,False,,False,0,,False,37,,
+PARP2,ENSG00000129484,2,protein_coding,SINGLE PROTEIN,True,False,Approved Drug,True,12,Poly [ADP-ribose] polymerase 2 inhibitor [INHIBITOR],False,478,Poly [ADP-ribose] polymerase 2,CHEMBL5366
+PCGF1,ENSG00000115289,2,protein_coding,(inferred:protein_coding),False,False,,False,0,,False,373,,
+PDSS2,ENSG00000164494,2,protein_coding,(inferred:protein_coding),False,False,,False,0,,False,653,,
+PMVK,ENSG00000163344,2,protein_coding,(inferred:protein_coding),False,False,,False,0,,False,82,,
+PPP1R14B,ENSG00000173457,2,protein_coding,(inferred:protein_coding),False,False,,False,0,,False,78,,
+PTPRC,ENSG00000081237,2,protein_coding,SINGLE PROTEIN,True,True,High-Quality Ligand,True,2,Leukocyte common antigen binding agent [BINDING AGENT],False,1727,Receptor-type tyrosine-protein phosphatase C,CHEMBL3243
+QRSL1,ENSG00000130348,2,protein_coding,(inferred:protein_coding),False,False,,False,0,,False,265,,
+RBCK1,ENSG00000125826,2,protein_coding,PROTEIN COMPLEX,False,False,,False,0,,False,169,Sharpin/RBCK1/RNF31,CHEMBL4296109
+RPRD2,ENSG00000163125,2,protein_coding,SINGLE PROTEIN,False,False,,False,0,,False,62,Regulation of nuclear pre-mRNA domain-containing protein 2,CHEMBL5725129
+RTRAF,ENSG00000087302,2,protein_coding,SINGLE PROTEIN,False,False,,False,0,,False,258,"RNA transcription, translation and transport factor protein",CHEMBL6067445
+SCAF4,ENSG00000156304,2,protein_coding,(inferred:protein_coding),False,False,,False,0,,False,71,,
+SEC14L1,ENSG00000129657,2,protein_coding,(inferred:protein_coding),False,False,,False,0,,False,80,,
+SMG7,ENSG00000116698,2,protein_coding,SINGLE PROTEIN,False,False,,False,0,,False,78,Nonsense-mediated mRNA decay factor SMG7,CHEMBL5465340
+SPAG7,ENSG00000091640,2,protein_coding,(inferred:protein_coding),False,False,,False,0,,False,86,,
+STAT3,ENSG00000168610,2,protein_coding,SINGLE PROTEIN,True,True,Structure with Ligand,False,1,,False,1976,Signal transducer and activator of transcription 3,CHEMBL4026
+STRAP,ENSG00000023734,2,protein_coding,SINGLE PROTEIN,False,False,,False,0,,False,114,Serine-threonine kinase receptor-associated protein,CHEMBL6067330
+TBX21,ENSG00000073861,2,protein_coding,(inferred:protein_coding),False,False,,False,0,,False,512,,
+TFAP4,ENSG00000090447,2,protein_coding,(inferred:protein_coding),False,False,,False,0,,False,145,,
+TFG,ENSG00000114354,2,protein_coding,CHIMERIC PROTEIN,False,False,,False,0,,False,286,ALK-TFG,CHEMBL5465388
+THAP11,ENSG00000168286,2,protein_coding,(inferred:protein_coding),False,False,,False,0,,False,288,,
+TNRC6A,ENSG00000090905,2,protein_coding,(inferred:protein_coding),False,False,,False,0,,False,131,,
+TRAF3,ENSG00000131323,2,protein_coding,(inferred:protein_coding),False,False,,False,0,,False,371,,
+UBE2F,ENSG00000184182,2,protein_coding,SINGLE PROTEIN,False,False,,False,0,,False,73,NEDD8-conjugating enzyme UBE2F,CHEMBL4523422
+UFL1,ENSG00000014123,2,protein_coding,SINGLE PROTEIN,False,False,,False,0,,False,197,E3 UFM1-protein ligase 1,CHEMBL6066996
+USP22,ENSG00000124422,2,protein_coding,SINGLE PROTEIN,False,False,,False,0,,False,226,Ubiquitin carboxyl-terminal hydrolase 22,CHEMBL5291597
+UTP23,ENSG00000147679,2,protein_coding,(inferred:protein_coding),False,False,,False,0,,False,64,,
+VPS8,ENSG00000156931,2,protein_coding,(inferred:protein_coding),False,False,,False,0,,False,46,,
+WAPL,ENSG00000062650,2,protein_coding,SINGLE PROTEIN,False,False,,False,0,,False,73,Wings apart-like protein homolog,CHEMBL5725044
+WDR24,ENSG00000127580,2,protein_coding,(inferred:protein_coding),False,False,,False,0,,False,32,,
+WDR59,ENSG00000103091,2,protein_coding,(inferred:protein_coding),False,False,,False,0,,False,54,,
+WDR82,ENSG00000164091,2,protein_coding,SINGLE PROTEIN,False,False,,False,0,,False,59,WD repeat-containing protein 82,CHEMBL5724608
+ZBTB14,ENSG00000198081,2,protein_coding,SINGLE PROTEIN,False,False,,False,0,,False,296,Zinc finger and BTB domain-containing protein 14,CHEMBL5069377
+ZC3H10,ENSG00000135482,2,protein_coding,(inferred:protein_coding),False,False,,False,0,,False,19,,
+ZMYM2,ENSG00000121741,2,protein_coding,(inferred:protein_coding),False,False,,False,0,,False,528,,
+ZNF613,ENSG00000176024,2,protein_coding,(inferred:protein_coding),False,False,,False,0,,False,12,,
+ZNF649,ENSG00000198093,2,protein_coding,(inferred:protein_coding),False,False,,False,0,,False,18,,

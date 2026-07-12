@@ -1,0 +1,5 @@
+donor,TCR_magnitude,novel_magnitude,magnitude_ratio,p_magnitude,TCR_activation_collapse,novel_activation_collapse,ward_axis_recovery,recovery_pct
+D1,0.985,0.389,2.53,5.4e-05,-0.482,-0.026,18/18,100.0
+D2,0.902,0.419,2.15,5.4e-05,-0.464,-0.046,17/18,94.0
+D3,0.785,0.478,1.64,5.1e-02,-0.29,-0.018,6/18,33.0
+D4,0.958,0.373,2.57,1.1e-04,-0.457,-0.009,17/18,94.0

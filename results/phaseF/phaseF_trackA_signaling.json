@@ -1,0 +1,1057 @@
+{
+  "track": "signaling",
+  "targets": [
+    {
+      "gene": "LAT",
+      "ensg": "ENSG00000213658",
+      "uniprot": "O43561",
+      "approvedName": "linker for activation of T cells",
+      "biotype": "protein_coding",
+      "scorecard": {
+        "rank": "1",
+        "best_condition": "Stim8hr",
+        "composite_score": "0.9248",
+        "n_directions": "4.0",
+        "directions": "cytokine+polarization+context+network",
+        "therapeutic_direction": "suppress-inflammation",
+        "novelty": "novel-druggable",
+        "module_name": "TCR-proximal signaling",
+        "n_downstream": "5535",
+        "protein_class": "SINGLE PROTEIN",
+        "biotype": "protein_coding",
+        "has_genetic_support": "False",
+        "n_immune_disease_assoc": "0.0",
+        "dis_max_neglog10_p": "",
+        "disease_categories": "",
+        "sm_tractable": "False",
+        "ab_tractable": "True",
+        "best_sm_bucket": "",
+        "has_clinical_drug": "False",
+        "n_known_drugs": "0.0",
+        "known_drug_moa": "",
+        "novel_druggable": "True"
+      },
+      "alphafold": {
+        "has_model": true,
+        "global_plddt": 59.34,
+        "seq_len": 262,
+        "entry_id": "AF-O43561-F1",
+        "fraction_plddt": {
+          "very_low": 0.263,
+          "low": 0.565,
+          "confident": 0.115,
+          "very_high": 0.057
+        },
+        "model_version": 6,
+        "cif_url": "https://alphafold.ebi.ac.uk/files/AF-O43561-F1-model_v6.cif",
+        "pdb_url": "https://alphafold.ebi.ac.uk/files/AF-O43561-F1-model_v6.pdb",
+        "description": "Linker for activation of T-cells family member 1"
+      },
+      "pdb": {
+        "n_experimental": 0,
+        "top_ids": []
+      },
+      "tractability": {
+        "SM_true": [],
+        "AB_true": [
+          "UniProt loc high conf",
+          "GO CC high conf",
+          "UniProt SigP or TMHMM",
+          "Human Protein Atlas loc"
+        ],
+        "PR_true": [
+          "UniProt Ubiquitination",
+          "Database Ubiquitination",
+          "Half-life Data"
+        ],
+        "OC_true": [],
+        "n_SM": 0,
+        "n_AB": 4,
+        "n_PR": 3
+      },
+      "chembl": {
+        "target_chembl_id": "CHEMBL5779",
+        "n_mechanisms": 0,
+        "mechanisms": [],
+        "n_bioactivities": 2,
+        "max_pchembl": null,
+        "n_potent_sub1uM": 0,
+        "top_compounds": []
+      },
+      "open_targets_drugs": {
+        "count": 0,
+        "n_unique_drugs": 0,
+        "drugs": []
+      },
+      "phaseE": {
+        "axis": "flagship",
+        "kd_mean": 0.847,
+        "conc_mean": 0.671,
+        "powered": "4/4",
+        "reproducible": true
+      }
+    },
+    {
+      "gene": "PLCG1",
+      "ensg": "ENSG00000124181",
+      "uniprot": "P19174",
+      "approvedName": "phospholipase C gamma 1",
+      "biotype": "protein_coding",
+      "scorecard": {
+        "rank": "3",
+        "best_condition": "Stim8hr",
+        "composite_score": "0.9084",
+        "n_directions": "4.0",
+        "directions": "cytokine+polarization+context+network",
+        "therapeutic_direction": "suppress-inflammation",
+        "novelty": "novel-druggable",
+        "module_name": "TCR-proximal signaling",
+        "n_downstream": "5032",
+        "protein_class": "SINGLE PROTEIN",
+        "biotype": "protein_coding",
+        "has_genetic_support": "False",
+        "n_immune_disease_assoc": "0.0",
+        "dis_max_neglog10_p": "",
+        "disease_categories": "",
+        "sm_tractable": "True",
+        "ab_tractable": "True",
+        "best_sm_bucket": "High-Quality Ligand",
+        "has_clinical_drug": "False",
+        "n_known_drugs": "0.0",
+        "known_drug_moa": "",
+        "novel_druggable": "True"
+      },
+      "alphafold": {
+        "has_model": true,
+        "global_plddt": 82.75,
+        "seq_len": 1290,
+        "entry_id": "AF-P19174-F1",
+        "fraction_plddt": {
+          "very_low": 0.122,
+          "low": 0.057,
+          "confident": 0.27,
+          "very_high": 0.551
+        },
+        "model_version": 6,
+        "cif_url": "https://alphafold.ebi.ac.uk/files/AF-P19174-F1-model_v6.cif",
+        "pdb_url": "https://alphafold.ebi.ac.uk/files/AF-P19174-F1-model_v6.pdb",
+        "description": "1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase gamma-1"
+      },
+      "pdb": {
+        "n_experimental": 6,
+        "top_ids": [
+          "1HSQ",
+          "2HSP",
+          "4EY0",
+          "4FBN",
+          "7NXE",
+          "9VFL"
+        ]
+      },
+      "tractability": {
+        "SM_true": [
+          "High-Quality Ligand"
+        ],
+        "AB_true": [
+          "GO CC high conf",
+          "Human Protein Atlas loc"
+        ],
+        "PR_true": [
+          "UniProt Ubiquitination",
+          "Database Ubiquitination",
+          "Half-life Data",
+          "Small Molecule Binder"
+        ],
+        "OC_true": [],
+        "n_SM": 1,
+        "n_AB": 2,
+        "n_PR": 4
+      },
+      "chembl": {
+        "target_chembl_id": "CHEMBL3964",
+        "n_mechanisms": 0,
+        "mechanisms": [],
+        "n_bioactivities": 438,
+        "max_pchembl": 6.75,
+        "n_potent_sub1uM": 2,
+        "top_compounds": [
+          {
+            "mol": "CHEMBL3355737",
+            "name": null,
+            "type": "IC50",
+            "val": 180.0,
+            "units": "nM",
+            "pchembl": 6.75,
+            "year": 2014
+          },
+          {
+            "mol": "CHEMBL3355726",
+            "name": null,
+            "type": "IC50",
+            "val": 540.0,
+            "units": "nM",
+            "pchembl": 6.27,
+            "year": 2014
+          },
+          {
+            "mol": "CHEMBL1541",
+            "name": "CEFIXIME",
+            "type": "IC50",
+            "val": 1212.0,
+            "units": "nM",
+            "pchembl": 5.92,
+            "year": null
+          },
+          {
+            "mol": "CHEMBL3188921",
+            "name": null,
+            "type": "IC50",
+            "val": 2026.0,
+            "units": "nM",
+            "pchembl": 5.69,
+            "year": null
+          },
+          {
+            "mol": "CHEMBL583969",
+            "name": "PHOSPHOMETHYLPHOSPHONIC ACID ADENOSYL ESTER",
+            "type": "IC50",
+            "val": 2198.0,
+            "units": "nM",
+            "pchembl": 5.66,
+            "year": null
+          }
+        ]
+      },
+      "open_targets_drugs": {
+        "count": 0,
+        "n_unique_drugs": 0,
+        "drugs": []
+      },
+      "phaseE": {
+        "axis": "flagship",
+        "kd_mean": 0.882,
+        "conc_mean": 0.459,
+        "powered": "4/4",
+        "reproducible": true
+      }
+    },
+    {
+      "gene": "CD247",
+      "ensg": "ENSG00000198821",
+      "uniprot": "P20963",
+      "approvedName": "CD247 molecule",
+      "biotype": "protein_coding",
+      "scorecard": {
+        "rank": "4",
+        "best_condition": "Stim8hr",
+        "composite_score": "0.905",
+        "n_directions": "3.0",
+        "directions": "cytokine+context+network",
+        "therapeutic_direction": "suppress-inflammation",
+        "novelty": "novel-druggable",
+        "module_name": "TCR-proximal signaling",
+        "n_downstream": "4329",
+        "protein_class": "(inferred:protein_coding)",
+        "biotype": "protein_coding",
+        "has_genetic_support": "True",
+        "n_immune_disease_assoc": "46.0",
+        "dis_max_neglog10_p": "24.69897000433602",
+        "disease_categories": "asthma-allergy(35); other-autoimmune(9); RA(2)",
+        "sm_tractable": "True",
+        "ab_tractable": "True",
+        "best_sm_bucket": "Structure with Ligand",
+        "has_clinical_drug": "False",
+        "n_known_drugs": "0.0",
+        "known_drug_moa": "",
+        "novel_druggable": "True"
+      },
+      "alphafold": {
+        "has_model": true,
+        "global_plddt": 62.41,
+        "seq_len": 164,
+        "entry_id": "AF-P20963-F1",
+        "fraction_plddt": {
+          "very_low": 0.165,
+          "low": 0.585,
+          "confident": 0.159,
+          "very_high": 0.091
+        },
+        "model_version": 6,
+        "cif_url": "https://alphafold.ebi.ac.uk/files/AF-P20963-F1-model_v6.cif",
+        "pdb_url": "https://alphafold.ebi.ac.uk/files/AF-P20963-F1-model_v6.pdb",
+        "description": "T-cell surface glycoprotein CD3 zeta chain"
+      },
+      "pdb": {
+        "n_experimental": 38,
+        "top_ids": [
+          "1TCE",
+          "1YGR",
+          "2HAC",
+          "2OQ1",
+          "3IK5",
+          "3IOZ",
+          "4XZ1",
+          "6JXR",
+          "7FJD",
+          "7FJE",
+          "7FJF",
+          "7PHR"
+        ]
+      },
+      "tractability": {
+        "SM_true": [
+          "Structure with Ligand"
+        ],
+        "AB_true": [
+          "GO CC high conf",
+          "UniProt loc med conf",
+          "UniProt SigP or TMHMM"
+        ],
+        "PR_true": [
+          "Database Ubiquitination",
+          "Half-life Data"
+        ],
+        "OC_true": [],
+        "n_SM": 1,
+        "n_AB": 3,
+        "n_PR": 2
+      },
+      "chembl": {
+        "target_chembl_id": null,
+        "n_mechanisms": 0,
+        "mechanisms": [],
+        "n_bioactivities": 0,
+        "max_pchembl": null,
+        "n_potent_sub1uM": null,
+        "top_compounds": []
+      },
+      "open_targets_drugs": {
+        "count": 0,
+        "n_unique_drugs": 0,
+        "drugs": []
+      },
+      "phaseE": {
+        "axis": "flagship",
+        "kd_mean": 0.716,
+        "conc_mean": 0.506,
+        "powered": "4/4",
+        "reproducible": true
+      }
+    },
+    {
+      "gene": "CD3E",
+      "ensg": "ENSG00000198851",
+      "uniprot": "P07766",
+      "approvedName": "CD3 epsilon subunit of T-cell receptor complex",
+      "biotype": "protein_coding",
+      "scorecard": {
+        "rank": "6",
+        "best_condition": "Stim8hr",
+        "composite_score": "0.8812",
+        "n_directions": "3.0",
+        "directions": "cytokine+context+network",
+        "therapeutic_direction": "suppress-inflammation",
+        "novelty": "known-drug-target",
+        "module_name": "TCR-proximal signaling",
+        "n_downstream": "5710",
+        "protein_class": "SINGLE PROTEIN",
+        "biotype": "protein_coding",
+        "has_genetic_support": "True",
+        "n_immune_disease_assoc": "3.0",
+        "dis_max_neglog10_p": "7.301029995663981",
+        "disease_categories": "IBD(3)",
+        "sm_tractable": "True",
+        "ab_tractable": "True",
+        "best_sm_bucket": "Structure with Ligand",
+        "has_clinical_drug": "True",
+        "n_known_drugs": "22.0",
+        "known_drug_moa": "T-cell surface glycoprotein CD3 epsilon chain binding agent [BINDING AGENT]; T-cell surface glycoprotein CD3 epsilon chain other [OTHER]; T-cell surface glycoprotein CD3 epsilon chain inhibitor [INHIBITOR]; T-cell surface glycoprotein CD3 epsilon chain cross-linking agent [CROSS-LINKING AGENT]",
+        "novel_druggable": "False"
+      },
+      "alphafold": {
+        "has_model": true,
+        "global_plddt": 73.06,
+        "seq_len": 207,
+        "entry_id": "AF-P07766-F1",
+        "fraction_plddt": {
+          "very_low": 0.15,
+          "low": 0.28,
+          "confident": 0.285,
+          "very_high": 0.285
+        },
+        "model_version": 6,
+        "cif_url": "https://alphafold.ebi.ac.uk/files/AF-P07766-F1-model_v6.cif",
+        "pdb_url": "https://alphafold.ebi.ac.uk/files/AF-P07766-F1-model_v6.pdb",
+        "description": "T-cell surface glycoprotein CD3 epsilon chain"
+      },
+      "pdb": {
+        "n_experimental": 44,
+        "top_ids": [
+          "1A81",
+          "1SY6",
+          "1XIW",
+          "2ROL",
+          "5QU2",
+          "6JXR",
+          "7FJD",
+          "7FJE",
+          "7FJF",
+          "7PHR",
+          "8ES7",
+          "8ES8"
+        ]
+      },
+      "tractability": {
+        "SM_true": [
+          "Structure with Ligand",
+          "Med-Quality Pocket"
+        ],
+        "AB_true": [
+          "Approved Drug",
+          "UniProt loc high conf",
+          "GO CC high conf",
+          "UniProt SigP or TMHMM",
+          "Human Protein Atlas loc"
+        ],
+        "PR_true": [
+          "Database Ubiquitination",
+          "Half-life Data"
+        ],
+        "OC_true": [
+          "Advanced Clinical"
+        ],
+        "n_SM": 2,
+        "n_AB": 5,
+        "n_PR": 2
+      },
+      "chembl": {
+        "target_chembl_id": "CHEMBL1975",
+        "n_mechanisms": 7,
+        "mechanisms": [
+          {
+            "mol": "CHEMBL1743053",
+            "moa": "T-cell surface glycoprotein CD3 epsilon chain binding agent",
+            "action": "BINDING AGENT",
+            "direct": true
+          },
+          {
+            "mol": "CHEMBL1743078",
+            "moa": "T-cell surface glycoprotein CD3 epsilon chain other",
+            "action": "OTHER",
+            "direct": true
+          },
+          {
+            "mol": "CHEMBL2108811",
+            "moa": "T-cell surface glycoprotein CD3 epsilon chain inhibitor",
+            "action": "INHIBITOR",
+            "direct": true
+          },
+          {
+            "mol": "CHEMBL2108029",
+            "moa": "T-cell surface glycoprotein CD3 epsilon chain cross-linking agent",
+            "action": "CROSS-LINKING AGENT",
+            "direct": true
+          },
+          {
+            "mol": "CHEMBL2109253",
+            "moa": "T-cell surface glycoprotein CD3 epsilon chain inhibitor",
+            "action": "INHIBITOR",
+            "direct": true
+          },
+          {
+            "mol": "CHEMBL2109372",
+            "moa": "T-cell surface glycoprotein CD3 epsilon chain cross-linking agent",
+            "action": "CROSS-LINKING AGENT",
+            "direct": true
+          },
+          {
+            "mol": "CHEMBL4297555",
+            "moa": "T-cell surface glycoprotein CD3 epsilon chain binding agent",
+            "action": "BINDING AGENT",
+            "direct": true
+          }
+        ],
+        "n_bioactivities": 0,
+        "max_pchembl": null,
+        "n_potent_sub1uM": 0,
+        "top_compounds": []
+      },
+      "open_targets_drugs": {
+        "count": 22,
+        "n_unique_drugs": 22,
+        "drugs": [
+          {
+            "name": "OTELIXIZUMAB",
+            "type": "Antibody",
+            "max_stage": "PHASE_3",
+            "diseases": [
+              "type 1 diabetes mellitus",
+              "type 1 diabetes mellitus",
+              "type 1 diabetes mellitus",
+              "Graves ophthalmopathy"
+            ]
+          },
+          {
+            "name": "ERTUMAXOMAB",
+            "type": "Antibody",
+            "max_stage": "PHASE_2",
+            "diseases": [
+              "breast cancer",
+              "rectal cancer",
+              "gastric cancer"
+            ]
+          },
+          {
+            "name": "BLINATUMOMAB",
+            "type": "Antibody",
+            "max_stage": "APPROVAL",
+            "diseases": [
+              "acute lymphoblastic leukemia",
+              "B-cell acute lymphoblastic leukemia",
+              null,
+              "lymphoid leukemia"
+            ]
+          },
+          {
+            "name": "TEPLIZUMAB",
+            "type": "Antibody",
+            "max_stage": "APPROVAL",
+            "diseases": [
+              "type 1 diabetes mellitus",
+              "type 1 diabetes mellitus",
+              "type 1 diabetes mellitus",
+              "melanoma"
+            ]
+          },
+          {
+            "name": "TARLATAMAB",
+            "type": "Antibody",
+            "max_stage": "APPROVAL",
+            "diseases": [
+              "small cell lung carcinoma",
+              "cancer",
+              "neoplasm",
+              "small cell lung carcinoma"
+            ]
+          },
+          {
+            "name": "FLOTETUZUMAB",
+            "type": "Antibody",
+            "max_stage": "PHASE_2",
+            "diseases": [
+              "acute leukemia of ambiguous lineage",
+              "acute myeloid leukemia by FAB classification",
+              "hematopoietic and lymphoid cell neoplasm",
+              "acute lymphoblastic leukemia"
+            ]
+          },
+          {
+            "name": "TALQUETAMAB",
+            "type": "Antibody",
+            "max_stage": "APPROVAL",
+            "diseases": [
+              "plasma cell myeloma",
+              "neoplasm",
+              "plasma cell myeloma",
+              null
+            ]
+          },
+          {
+            "name": "EPCORITAMAB",
+            "type": "Antibody",
+            "max_stage": "APPROVAL",
+            "diseases": [
+              "follicular lymphoma",
+              null,
+              "B-cell non-Hodgkin lymphoma",
+              "diffuse large B-cell lymphoma"
+            ]
+          },
+          {
+            "name": "FORALUMAB",
+            "type": "Antibody",
+            "max_stage": "PHASE_2",
+            "diseases": [
+              "metabolic dysfunction-associated steatohepatitis",
+              "type 2 diabetes mellitus",
+              null,
+              "COVID-19"
+            ]
+          },
+          {
+            "name": "IMC-GP100",
+            "type": "Unknown",
+            "max_stage": "EARLY_PHASE_1",
+            "diseases": [
+              "melanoma"
+            ]
+          },
+          {
+            "name": "MEDI-565",
+            "type": "Unknown",
+            "max_stage": "PHASE_1",
+            "diseases": [
+              null,
+              null
+            ]
+          },
+          {
+            "name": "ODRONEXTAMAB",
+            "type": "Antibody",
+            "max_stage": "APPROVAL",
+            "diseases": [
+              "follicular lymphoma",
+              "neoplasm",
+              "follicular lymphoma",
+              "diffuse large B-cell lymphoma"
+            ]
+          },
+          {
+            "name": "CATUMAXOMAB",
+            "type": "Antibody",
+            "max_stage": "APPROVAL",
+            "diseases": [
+              null,
+              "Ascites",
+              "neoplasm",
+              null
+            ]
+          },
+          {
+            "name": "MOSUNETUZUMAB",
+            "type": "Antibody",
+            "max_stage": "APPROVAL",
+            "diseases": [
+              "follicular lymphoma",
+              "neoplasm",
+              null,
+              "high grade B-cell lymphoma"
+            ]
+          },
+          {
+            "name": "FBT-A05",
+            "type": "Unknown",
+            "max_stage": "PHASE_1_2",
+            "diseases": [
+              "B-cell chronic lymphocytic leukemia",
+              "B-cell chronic lymphocytic leukemia",
+              "non-Hodgkin lymphoma"
+            ]
+          }
+        ]
+      },
+      "phaseE": {
+        "axis": "flagship",
+        "kd_mean": 0.956,
+        "conc_mean": 0.847,
+        "powered": "4/4",
+        "reproducible": true
+      }
+    },
+    {
+      "gene": "ZAP70",
+      "ensg": "ENSG00000115085",
+      "uniprot": "P43403",
+      "approvedName": "zeta chain of T cell receptor associated protein kinase 70",
+      "biotype": "protein_coding",
+      "scorecard": {
+        "rank": "7",
+        "best_condition": "Stim8hr",
+        "composite_score": "0.8357",
+        "n_directions": "3.0",
+        "directions": "cytokine+polarization+network",
+        "therapeutic_direction": "suppress-inflammation",
+        "novelty": "novel-druggable",
+        "module_name": "TCR-proximal signaling",
+        "n_downstream": "5021",
+        "protein_class": "SINGLE PROTEIN",
+        "biotype": "protein_coding",
+        "has_genetic_support": "True",
+        "n_immune_disease_assoc": "1.0",
+        "dis_max_neglog10_p": "7.698970004336019",
+        "disease_categories": "other-autoimmune(1)",
+        "sm_tractable": "True",
+        "ab_tractable": "True",
+        "best_sm_bucket": "Structure with Ligand",
+        "has_clinical_drug": "False",
+        "n_known_drugs": "0.0",
+        "known_drug_moa": "",
+        "novel_druggable": "True"
+      },
+      "alphafold": {
+        "has_model": true,
+        "global_plddt": 84.94,
+        "seq_len": 619,
+        "entry_id": "AF-P43403-F1",
+        "fraction_plddt": {
+          "very_low": 0.097,
+          "low": 0.052,
+          "confident": 0.215,
+          "very_high": 0.637
+        },
+        "model_version": 6,
+        "cif_url": "https://alphafold.ebi.ac.uk/files/AF-P43403-F1-model_v6.cif",
+        "pdb_url": "https://alphafold.ebi.ac.uk/files/AF-P43403-F1-model_v6.pdb",
+        "description": "Tyrosine-protein kinase ZAP-70"
+      },
+      "pdb": {
+        "n_experimental": 15,
+        "top_ids": [
+          "1FBV",
+          "1M61",
+          "1U59",
+          "2CBL",
+          "2OQ1",
+          "2OZO",
+          "2Y1N",
+          "3ZNI",
+          "4A4B",
+          "4A4C",
+          "4K2R",
+          "4XZ0"
+        ]
+      },
+      "tractability": {
+        "SM_true": [
+          "Structure with Ligand",
+          "High-Quality Ligand",
+          "High-Quality Pocket",
+          "Druggable Family"
+        ],
+        "AB_true": [
+          "UniProt loc high conf",
+          "GO CC high conf"
+        ],
+        "PR_true": [
+          "UniProt Ubiquitination",
+          "Database Ubiquitination",
+          "Half-life Data",
+          "Small Molecule Binder"
+        ],
+        "OC_true": [],
+        "n_SM": 4,
+        "n_AB": 2,
+        "n_PR": 4
+      },
+      "chembl": {
+        "target_chembl_id": "CHEMBL2803",
+        "n_mechanisms": 0,
+        "mechanisms": [],
+        "n_bioactivities": 2390,
+        "max_pchembl": 8.1,
+        "n_potent_sub1uM": 20,
+        "top_compounds": [
+          {
+            "mol": "CHEMBL112346",
+            "name": null,
+            "type": "IC50",
+            "val": 8.0,
+            "units": "nM",
+            "pchembl": 8.1,
+            "year": 1999
+          },
+          {
+            "mol": "CHEMBL325912",
+            "name": null,
+            "type": "IC50",
+            "val": 11.0,
+            "units": "nM",
+            "pchembl": 7.96,
+            "year": 1999
+          },
+          {
+            "mol": "CHEMBL112518",
+            "name": null,
+            "type": "IC50",
+            "val": 26.0,
+            "units": "nM",
+            "pchembl": 7.58,
+            "year": 1999
+          },
+          {
+            "mol": "CHEMBL439120",
+            "name": null,
+            "type": "IC50",
+            "val": 30.0,
+            "units": "nM",
+            "pchembl": 7.52,
+            "year": 1997
+          },
+          {
+            "mol": "CHEMBL439120",
+            "name": null,
+            "type": "IC50",
+            "val": 30.0,
+            "units": "nM",
+            "pchembl": 7.52,
+            "year": 1998
+          }
+        ]
+      },
+      "open_targets_drugs": {
+        "count": 0,
+        "n_unique_drugs": 0,
+        "drugs": []
+      },
+      "phaseE": {
+        "axis": "flagship",
+        "kd_mean": 0.909,
+        "conc_mean": 0.782,
+        "powered": "3/3",
+        "reproducible": true
+      }
+    },
+    {
+      "gene": "VAV1",
+      "ensg": "ENSG00000141968",
+      "uniprot": "P15498",
+      "approvedName": "vav guanine nucleotide exchange factor 1",
+      "biotype": "protein_coding",
+      "scorecard": {
+        "rank": "9",
+        "best_condition": "Stim8hr",
+        "composite_score": "0.8302",
+        "n_directions": "2.0",
+        "directions": "cytokine+network",
+        "therapeutic_direction": "suppress-inflammation",
+        "novelty": "novel-druggable",
+        "module_name": "TCR-proximal signaling",
+        "n_downstream": "4897",
+        "protein_class": "SINGLE PROTEIN",
+        "biotype": "protein_coding",
+        "has_genetic_support": "True",
+        "n_immune_disease_assoc": "0.0",
+        "dis_max_neglog10_p": "",
+        "disease_categories": "",
+        "sm_tractable": "True",
+        "ab_tractable": "True",
+        "best_sm_bucket": "Structure with Ligand",
+        "has_clinical_drug": "False",
+        "n_known_drugs": "0.0",
+        "known_drug_moa": "",
+        "novel_druggable": "True"
+      },
+      "alphafold": {
+        "has_model": true,
+        "global_plddt": 86.38,
+        "seq_len": 845,
+        "entry_id": "AF-P15498-F1",
+        "fraction_plddt": {
+          "very_low": 0.053,
+          "low": 0.059,
+          "confident": 0.277,
+          "very_high": 0.611
+        },
+        "model_version": 6,
+        "cif_url": "https://alphafold.ebi.ac.uk/files/AF-P15498-F1-model_v6.cif",
+        "pdb_url": "https://alphafold.ebi.ac.uk/files/AF-P15498-F1-model_v6.pdb",
+        "description": "Proto-oncogene vav"
+      },
+      "pdb": {
+        "n_experimental": 10,
+        "top_ids": [
+          "2CRH",
+          "2LCT",
+          "2MC1",
+          "2ROR",
+          "3BJI",
+          "3KY9",
+          "6NEW",
+          "6NF1",
+          "6NFA",
+          "9NFR"
+        ]
+      },
+      "tractability": {
+        "SM_true": [
+          "Structure with Ligand"
+        ],
+        "AB_true": [
+          "GO CC high conf"
+        ],
+        "PR_true": [
+          "Database Ubiquitination",
+          "Half-life Data",
+          "Small Molecule Binder"
+        ],
+        "OC_true": [],
+        "n_SM": 1,
+        "n_AB": 1,
+        "n_PR": 3
+      },
+      "chembl": {
+        "target_chembl_id": "CHEMBL3259472",
+        "n_mechanisms": 0,
+        "mechanisms": [],
+        "n_bioactivities": 1,
+        "max_pchembl": 8.98,
+        "n_potent_sub1uM": 1,
+        "top_compounds": [
+          {
+            "mol": "CHEMBL27768",
+            "name": null,
+            "type": "Kd",
+            "val": 1.05,
+            "units": "nM",
+            "pchembl": 8.98,
+            "year": 2014
+          }
+        ]
+      },
+      "open_targets_drugs": {
+        "count": 0,
+        "n_unique_drugs": 0,
+        "drugs": []
+      },
+      "phaseE": {
+        "axis": "flagship",
+        "kd_mean": 0.924,
+        "conc_mean": 0.659,
+        "powered": "3/3",
+        "reproducible": true
+      }
+    },
+    {
+      "gene": "SIK3",
+      "ensg": "ENSG00000160584",
+      "uniprot": "Q9Y2K2",
+      "approvedName": "SIK family kinase 3",
+      "biotype": "protein_coding",
+      "scorecard": {
+        "rank": "19",
+        "best_condition": "Stim48hr",
+        "composite_score": "0.7419",
+        "n_directions": "3.0",
+        "directions": "cytokine+polarization+network",
+        "therapeutic_direction": "suppress-inflammation",
+        "novelty": "novel-druggable",
+        "module_name": "",
+        "n_downstream": "1809",
+        "protein_class": "SINGLE PROTEIN",
+        "biotype": "protein_coding",
+        "has_genetic_support": "False",
+        "n_immune_disease_assoc": "0.0",
+        "dis_max_neglog10_p": "",
+        "disease_categories": "",
+        "sm_tractable": "True",
+        "ab_tractable": "False",
+        "best_sm_bucket": "Structure with Ligand",
+        "has_clinical_drug": "False",
+        "n_known_drugs": "0.0",
+        "known_drug_moa": "",
+        "novel_druggable": "True"
+      },
+      "alphafold": {
+        "has_model": true,
+        "global_plddt": 50.66,
+        "seq_len": 1321,
+        "entry_id": "AF-Q9Y2K2-F1",
+        "fraction_plddt": {
+          "very_low": 0.665,
+          "low": 0.079,
+          "confident": 0.05,
+          "very_high": 0.206
+        },
+        "model_version": 6,
+        "cif_url": "https://alphafold.ebi.ac.uk/files/AF-Q9Y2K2-F1-model_v6.cif",
+        "pdb_url": "https://alphafold.ebi.ac.uk/files/AF-Q9Y2K2-F1-model_v6.pdb",
+        "description": "Serine/threonine-protein kinase SIK3"
+      },
+      "pdb": {
+        "n_experimental": 5,
+        "top_ids": [
+          "8OKU",
+          "8R4O",
+          "8R4Q",
+          "8R4U",
+          "8R4V"
+        ]
+      },
+      "tractability": {
+        "SM_true": [
+          "Structure with Ligand",
+          "High-Quality Ligand",
+          "Druggable Family"
+        ],
+        "AB_true": [],
+        "PR_true": [
+          "Literature",
+          "Database Ubiquitination",
+          "Half-life Data",
+          "Small Molecule Binder"
+        ],
+        "OC_true": [],
+        "n_SM": 3,
+        "n_AB": 0,
+        "n_PR": 4
+      },
+      "chembl": {
+        "target_chembl_id": "CHEMBL6149",
+        "n_mechanisms": 0,
+        "mechanisms": [],
+        "n_bioactivities": 809,
+        "max_pchembl": 9.34,
+        "n_potent_sub1uM": 18,
+        "top_compounds": [
+          {
+            "mol": "CHEMBL388978",
+            "name": "STAUROSPORINE",
+            "type": "Kd",
+            "val": 0.46,
+            "units": "nM",
+            "pchembl": 9.34,
+            "year": 2011
+          },
+          {
+            "mol": "CHEMBL2105728",
+            "name": "CRENOLANIB",
+            "type": "Kd",
+            "val": 2.0,
+            "units": "nM",
+            "pchembl": 8.7,
+            "year": 2017
+          },
+          {
+            "mol": "CHEMBL400402",
+            "name": null,
+            "type": "Kd",
+            "val": 3.0,
+            "units": "nM",
+            "pchembl": 8.52,
+            "year": 2017
+          },
+          {
+            "mol": "CHEMBL5416410",
+            "name": "DASATINIB",
+            "type": "Kd",
+            "val": 28.0,
+            "units": "nM",
+            "pchembl": 7.55,
+            "year": 2011
+          },
+          {
+            "mol": "CHEMBL2041933",
+            "name": "AZD-7762",
+            "type": "Kd",
+            "val": 43.0,
+            "units": "nM",
+            "pchembl": 7.37,
+            "year": 2017
+          }
+        ]
+      },
+      "open_targets_drugs": {
+        "count": 0,
+        "n_unique_drugs": 0,
+        "drugs": []
+      },
+      "phaseE": {
+        "axis": "novel",
+        "kd_mean": 0.867,
+        "conc_mean": 0.523,
+        "powered": "3/3",
+        "validated": true
+      }
+    }
+  ]
+}

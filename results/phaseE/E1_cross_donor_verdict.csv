@@ -1,0 +1,8 @@
+gene,axis,n_donors_powered,kd_mean,kd_min,kd_pass_donors,conc_mean,conc_min,conc_cv,conc_pass_donors,reproducible
+LAT,flagship,4,0.847,0.742,4/4,0.671,0.551,0.123,4/4,True
+PLCG1,flagship,4,0.882,0.86,4/4,0.459,0.408,0.11,4/4,True
+CD247,flagship,4,0.716,0.381,4/4,0.506,0.439,0.155,4/4,True
+CD3E,flagship,4,0.956,0.918,4/4,0.847,0.84,0.007,4/4,True
+ZAP70,flagship,3,0.909,0.9,3/3,0.782,0.764,0.033,3/3,True
+VAV1,flagship,3,0.924,0.834,3/3,0.659,0.637,0.04,3/3,True
+SMARCE1,flagship,3,0.877,0.771,3/3,0.743,0.738,0.007,3/3,True

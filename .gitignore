@@ -1,0 +1,66 @@
+# ─────────────────────────────────────────────────────────────
+# Chinese-language counterpart documents (English is the release language)
+# ─────────────────────────────────────────────────────────────
+docs/zh/
+*_zh.md
+*_CN.html
+*_CN.md
+DATASET_README_zh.md
+
+# ─────────────────────────────────────────────────────────────
+# Large data & binary objects — obtain from the public source (see data/README.md)
+# ─────────────────────────────────────────────────────────────
+*.h5ad
+*.h5mu
+*.h5
+*.npy
+*.npz
+*.parquet
+*.feather
+*.gz
+*.zip
+*.tar
+*.pkl
+*.pickle
+# the raw/processed data tree (not redistributed here)
+perturb-seq_data/
+data/cell_level/
+
+# ─────────────────────────────────────────────────────────────
+# Run logs, checkpoints, job artifacts, completion markers
+# ─────────────────────────────────────────────────────────────
+*.log
+logs/
+**/checkpoints/
+**/_percell_*.json
+_DONE*
+_DONE_*
+*.done
+*.out
+*.b64
+*.b64tmp
+slurm-*.out
+nohup.out
+
+# ─────────────────────────────────────────────────────────────
+# Python
+# ─────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+env/
+venv/
+
+# ─────────────────────────────────────────────────────────────
+# OS / editor junk
+# ─────────────────────────────────────────────────────────────
+._*
+.DS_Store
+.DS_Store?
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/

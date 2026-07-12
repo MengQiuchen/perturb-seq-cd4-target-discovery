@@ -1,0 +1,5 @@
+donor,n_clusters,TCR_redistribution,novel_redistribution,redist_ratio,p_redist,biology_reproduces,ward_recovery_frac,ward_recovery_pct
+D1,15,0.635,0.305,2.08,3.4e-03,yes,16/18,89
+D2,16,0.659,0.312,2.11,5.4e-05,yes,18/18,100
+D3,15,0.598,0.346,1.73,3.3e-02,yes,4/18,22
+D4,13,0.611,0.249,2.45,5.4e-05,yes,17/18,94

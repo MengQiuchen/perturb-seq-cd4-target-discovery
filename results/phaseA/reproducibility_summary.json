@@ -1,0 +1,16 @@
+{
+  "total_rows": 33983,
+  "ontarget_ok": 21221,
+  "guide_agreement": 20418,
+  "donor_agreement": 4283,
+  "reproducible_either": 21979,
+  "clean_flags": 23317,
+  "high_confidence": 12576,
+  "high_confidence_with_transeffect": 12576,
+  "high_confidence_unique_targets": 5728,
+  "hc_per_condition": {
+    "Rest": 3714,
+    "Stim8hr": 4492,
+    "Stim48hr": 4370
+  }
+}

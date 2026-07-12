@@ -1,0 +1,64 @@
+{
+  "flagship7": {
+    "targets": [
+      "LAT",
+      "PLCG1",
+      "CD247",
+      "CD3E",
+      "ZAP70",
+      "VAV1",
+      "SMARCE1"
+    ],
+    "role": "TCR-proximal signaling (6) + SMARCE1 constitutive chromatin control; validated on D4 in Phase D"
+  },
+  "novel_axis12": {
+    "SAGA_Mediator": [
+      "SGF29",
+      "MED24",
+      "MED12",
+      "TADA2B"
+    ],
+    "chromatin_remodelers": [
+      "NSD1",
+      "CHD4",
+      "SMARCB1"
+    ],
+    "TF_kinase_novel_gwas": [
+      "STAT6",
+      "TRIP12",
+      "ARNT",
+      "SEL1L",
+      "SIK3"
+    ]
+  },
+  "ensg": {
+    "LAT": "ENSG00000213658",
+    "PLCG1": "ENSG00000124181",
+    "CD247": "ENSG00000198821",
+    "CD3E": "ENSG00000198851",
+    "ZAP70": "ENSG00000115085",
+    "VAV1": "ENSG00000141968",
+    "SMARCE1": "ENSG00000073584",
+    "SGF29": "ENSG00000176476",
+    "MED24": "ENSG00000008838",
+    "MED12": "ENSG00000184634",
+    "TADA2B": "ENSG00000173011",
+    "NSD1": "ENSG00000165671",
+    "CHD4": "ENSG00000111642",
+    "SMARCB1": "ENSG00000099956",
+    "STAT6": "ENSG00000166888",
+    "TRIP12": "ENSG00000153827",
+    "ARNT": "ENSG00000143437",
+    "SEL1L": "ENSG00000071537",
+    "SIK3": "ENSG00000160584"
+  },
+  "obs_columns": {
+    "target_assignment": "perturbed_gene_name",
+    "target_ensg": "perturbed_gene_id",
+    "guide_type": "guide_type",
+    "guide_id": "guide_id",
+    "guide_group": "guide_group",
+    "low_quality": "low_quality"
+  },
+  "notes": "SMARCE1 is both flagship control and key chromatin remodeler (bridges E1/E3). Novel-axis SAGA/Mediator core members TADA2B/MED12 are novelty='difficult' (complex, hard to drug) but validated as the mechanistic axis; SGF29/MED24 are novel-druggable within SAGA/Mediator. GWAS-strong novel: STAT6(55), SMARCE1(37); MED24(12)."
+}

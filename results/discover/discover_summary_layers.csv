@@ -1,0 +1,7 @@
+layer,file,n_obs(cells),n_var(genes),matrix,size,note
+"cell-level (per shard, D4_Rest only)",D4_Rest.assigned_guide.h5ad,2693903,18130,sparse CSR,111 GB on disk (S3 listed 118.6 GB),"cell count measured for D4_Rest ONLY; 12 shards total (4 donors × 3 conditions), shards range 118.6–172.8 GB on S3, other shards not cell-counted; ~22.7M cells total"
+pseudobulk,GWCD4i.pseudobulk_merged.h5ad,278684,18129,aggregated,"44.57 GB (44,566,657,140 B)",guide×donor×condition profiles
+DE_stats,GWCD4i.DE_stats.h5ad,33983,10282,6 layers,"16.79 GB (16,786,240,107 B)","target×condition contrasts; layers: adj_p_value, baseMean, lfcSE, log_fc, p_value, zscore"
+DE_stats by_guide,GWCD4i.DE_stats.by_guide.h5mu,-,-,MuData,"29.42 GB (29,424,424,894 B)",per-guide resolution
+DE_stats by_donors,GWCD4i.DE_stats.by_donors.h5mu,-,-,MuData,"16.87 GB (16,866,278,447 B)",per-donor resolution
+suppl tables,suppl_tables/*.csv,-,-,CSV,~15 MB,sample_metadata / sgrna_library_metadata / DE_stats

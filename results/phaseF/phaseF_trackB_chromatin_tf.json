@@ -1,0 +1,1296 @@
+{
+  "track": "chromatin_tf",
+  "targets": [
+    {
+      "gene": "SMARCE1",
+      "ensg": "ENSG00000073584",
+      "uniprot": "Q969G3",
+      "approvedName": "SWI/SNF related BAF chromatin remodeling complex subunit E1",
+      "biotype": "protein_coding",
+      "scorecard": {
+        "rank": "2",
+        "best_condition": "Stim8hr",
+        "composite_score": "0.909",
+        "n_directions": "3.0",
+        "directions": "cytokine+polarization+network",
+        "therapeutic_direction": "suppress-inflammation",
+        "novelty": "novel-druggable",
+        "module_name": "",
+        "n_downstream": "3266",
+        "protein_class": "SINGLE PROTEIN",
+        "biotype": "protein_coding",
+        "has_genetic_support": "True",
+        "n_immune_disease_assoc": "37.0",
+        "dis_max_neglog10_p": "67.52287874528034",
+        "disease_categories": "asthma-allergy(32); T1D(3); IBD(2)",
+        "sm_tractable": "True",
+        "ab_tractable": "False",
+        "best_sm_bucket": "Structure with Ligand",
+        "has_clinical_drug": "False",
+        "n_known_drugs": "0.0",
+        "known_drug_moa": "",
+        "novel_druggable": "True"
+      },
+      "alphafold": {
+        "has_model": true,
+        "global_plddt": 69.56,
+        "seq_len": 411,
+        "entry_id": "AF-Q969G3-F1",
+        "fraction_plddt": {
+          "very_low": 0.307,
+          "low": 0.136,
+          "confident": 0.19,
+          "very_high": 0.367
+        },
+        "model_version": 6,
+        "cif_url": "https://alphafold.ebi.ac.uk/files/AF-Q969G3-F1-model_v6.cif",
+        "pdb_url": "https://alphafold.ebi.ac.uk/files/AF-Q969G3-F1-model_v6.pdb",
+        "description": "SWI/SNF-related matrix-associated actin-dependent regulator of chromatin subfamily E member 1"
+      },
+      "pdb": {
+        "n_experimental": 9,
+        "top_ids": [
+          "6LTH",
+          "6LTJ",
+          "7CYU",
+          "7VDV",
+          "7Y8R",
+          "9A0K",
+          "9RL4",
+          "9RMC",
+          "9RN1"
+        ]
+      },
+      "tractability": {
+        "SM_true": [
+          "Structure with Ligand"
+        ],
+        "AB_true": [],
+        "PR_true": [
+          "UniProt Ubiquitination",
+          "Database Ubiquitination",
+          "Half-life Data"
+        ],
+        "OC_true": [],
+        "n_SM": 1,
+        "n_AB": 0,
+        "n_PR": 3
+      },
+      "chembl": {
+        "target_chembl_id": "CHEMBL5725103",
+        "n_mechanisms": 0,
+        "mechanisms": [],
+        "n_bioactivities": 8,
+        "max_pchembl": 6.95,
+        "n_potent_sub1uM": 2,
+        "top_compounds": [
+          {
+            "mol": "CHEMBL5653589",
+            "name": null,
+            "type": "Kd",
+            "val": 112.0,
+            "units": "nM",
+            "pchembl": 6.95,
+            "year": 2018
+          },
+          {
+            "mol": "CHEMBL5653589",
+            "name": null,
+            "type": "ED50",
+            "val": 112.0,
+            "units": "nM",
+            "pchembl": 6.95,
+            "year": 2018
+          }
+        ]
+      },
+      "open_targets_drugs": {
+        "count": 0,
+        "n_unique_drugs": 0,
+        "drugs": []
+      },
+      "phaseE": {
+        "axis": "flagship",
+        "kd_mean": 0.877,
+        "conc_mean": 0.743,
+        "powered": "3/3",
+        "reproducible": true
+      }
+    },
+    {
+      "gene": "SGF29",
+      "ensg": "ENSG00000176476",
+      "uniprot": "Q96ES7",
+      "approvedName": "SAGA complex associated factor 29",
+      "biotype": "protein_coding",
+      "scorecard": {
+        "rank": "31",
+        "best_condition": "Stim8hr",
+        "composite_score": "0.702",
+        "n_directions": "3.0",
+        "directions": "cytokine+polarization+network",
+        "therapeutic_direction": "suppress-inflammation",
+        "novelty": "novel-druggable",
+        "module_name": "SAGA/Mediator coactivator",
+        "n_downstream": "4047",
+        "protein_class": "SINGLE PROTEIN",
+        "biotype": "protein_coding",
+        "has_genetic_support": "True",
+        "n_immune_disease_assoc": "5.0",
+        "dis_max_neglog10_p": "9.522878745280336",
+        "disease_categories": "asthma-allergy(3); IBD(2)",
+        "sm_tractable": "True",
+        "ab_tractable": "False",
+        "best_sm_bucket": "High-Quality Pocket",
+        "has_clinical_drug": "False",
+        "n_known_drugs": "0.0",
+        "known_drug_moa": "",
+        "novel_druggable": "True"
+      },
+      "alphafold": {
+        "has_model": true,
+        "global_plddt": 91.75,
+        "seq_len": 293,
+        "entry_id": "AF-Q96ES7-F1",
+        "fraction_plddt": {
+          "very_low": 0.034,
+          "low": 0.044,
+          "confident": 0.092,
+          "very_high": 0.829
+        },
+        "model_version": 6,
+        "cif_url": "https://alphafold.ebi.ac.uk/files/AF-Q96ES7-F1-model_v6.cif",
+        "pdb_url": "https://alphafold.ebi.ac.uk/files/AF-Q96ES7-F1-model_v6.pdb",
+        "description": "SAGA-associated factor 29"
+      },
+      "pdb": {
+        "n_experimental": 8,
+        "top_ids": [
+          "3LX7",
+          "3ME9",
+          "3MEA",
+          "3MET",
+          "3MEU",
+          "3MEV",
+          "3MEW",
+          "5C0M"
+        ]
+      },
+      "tractability": {
+        "SM_true": [
+          "High-Quality Pocket"
+        ],
+        "AB_true": [],
+        "PR_true": [
+          "Database Ubiquitination",
+          "Half-life Data"
+        ],
+        "OC_true": [],
+        "n_SM": 1,
+        "n_AB": 0,
+        "n_PR": 2
+      },
+      "chembl": {
+        "target_chembl_id": "CHEMBL4523425",
+        "n_mechanisms": 0,
+        "mechanisms": [],
+        "n_bioactivities": 1,
+        "max_pchembl": null,
+        "n_potent_sub1uM": 0,
+        "top_compounds": []
+      },
+      "open_targets_drugs": {
+        "count": 0,
+        "n_unique_drugs": 0,
+        "drugs": []
+      },
+      "phaseE": {
+        "axis": "novel",
+        "kd_mean": 0.936,
+        "conc_mean": 0.692,
+        "powered": "4/4",
+        "validated": true
+      }
+    },
+    {
+      "gene": "MED24",
+      "ensg": "ENSG00000008838",
+      "uniprot": "O75448",
+      "approvedName": "mediator complex subunit 24",
+      "biotype": "protein_coding",
+      "scorecard": {
+        "rank": "34",
+        "best_condition": "Rest",
+        "composite_score": "0.6975",
+        "n_directions": "3.0",
+        "directions": "cytokine+polarization+network",
+        "therapeutic_direction": "mixed",
+        "novelty": "novel-druggable",
+        "module_name": "",
+        "n_downstream": "1538",
+        "protein_class": "(inferred:protein_coding)",
+        "biotype": "protein_coding",
+        "has_genetic_support": "True",
+        "n_immune_disease_assoc": "12.0",
+        "dis_max_neglog10_p": "29.522878745280337",
+        "disease_categories": "asthma-allergy(12)",
+        "sm_tractable": "True",
+        "ab_tractable": "False",
+        "best_sm_bucket": "Structure with Ligand",
+        "has_clinical_drug": "False",
+        "n_known_drugs": "0.0",
+        "known_drug_moa": "",
+        "novel_druggable": "True"
+      },
+      "alphafold": {
+        "has_model": true,
+        "global_plddt": 84.12,
+        "seq_len": 989,
+        "entry_id": "AF-O75448-F1",
+        "fraction_plddt": {
+          "very_low": 0.077,
+          "low": 0.07,
+          "confident": 0.311,
+          "very_high": 0.542
+        },
+        "model_version": 6,
+        "cif_url": "https://alphafold.ebi.ac.uk/files/AF-O75448-F1-model_v6.cif",
+        "pdb_url": "https://alphafold.ebi.ac.uk/files/AF-O75448-F1-model_v6.pdb",
+        "description": "Mediator of RNA polymerase II transcription subunit 24"
+      },
+      "pdb": {
+        "n_experimental": 10,
+        "top_ids": [
+          "7EMF",
+          "7ENA",
+          "7ENC",
+          "7ENJ",
+          "7LBM",
+          "8GXQ",
+          "8GXS",
+          "8T9D",
+          "8TQW",
+          "8TRH"
+        ]
+      },
+      "tractability": {
+        "SM_true": [
+          "Structure with Ligand"
+        ],
+        "AB_true": [],
+        "PR_true": [
+          "Database Ubiquitination",
+          "Half-life Data"
+        ],
+        "OC_true": [],
+        "n_SM": 1,
+        "n_AB": 0,
+        "n_PR": 2
+      },
+      "chembl": {
+        "target_chembl_id": null,
+        "n_mechanisms": 0,
+        "mechanisms": [],
+        "n_bioactivities": 0,
+        "max_pchembl": null,
+        "n_potent_sub1uM": null,
+        "top_compounds": []
+      },
+      "open_targets_drugs": {
+        "count": 0,
+        "n_unique_drugs": 0,
+        "drugs": []
+      },
+      "phaseE": {
+        "axis": "novel",
+        "kd_mean": 0.957,
+        "conc_mean": 0.796,
+        "powered": "4/4",
+        "validated": true
+      }
+    },
+    {
+      "gene": "MED12",
+      "ensg": "ENSG00000184634",
+      "uniprot": "Q93074",
+      "approvedName": "mediator complex subunit 12",
+      "biotype": "protein_coding",
+      "scorecard": {
+        "rank": "99",
+        "best_condition": "Stim8hr",
+        "composite_score": "0.5967",
+        "n_directions": "3.0",
+        "directions": "cytokine+polarization+network",
+        "therapeutic_direction": "suppress-inflammation",
+        "novelty": "difficult",
+        "module_name": "SAGA/Mediator coactivator",
+        "n_downstream": "4141",
+        "protein_class": "SINGLE PROTEIN",
+        "biotype": "protein_coding",
+        "has_genetic_support": "False",
+        "n_immune_disease_assoc": "0.0",
+        "dis_max_neglog10_p": "",
+        "disease_categories": "",
+        "sm_tractable": "False",
+        "ab_tractable": "False",
+        "best_sm_bucket": "",
+        "has_clinical_drug": "False",
+        "n_known_drugs": "0.0",
+        "known_drug_moa": "",
+        "novel_druggable": "False"
+      },
+      "alphafold": {
+        "has_model": true,
+        "global_plddt": 65.12,
+        "seq_len": 2177,
+        "entry_id": "AF-Q93074-F1",
+        "fraction_plddt": {
+          "very_low": 0.344,
+          "low": 0.13,
+          "confident": 0.326,
+          "very_high": 0.201
+        },
+        "model_version": 6,
+        "cif_url": "https://alphafold.ebi.ac.uk/files/AF-Q93074-F1-model_v6.cif",
+        "pdb_url": "https://alphafold.ebi.ac.uk/files/AF-Q93074-F1-model_v6.pdb",
+        "description": "Mediator of RNA polymerase II transcription subunit 12"
+      },
+      "pdb": {
+        "n_experimental": 3,
+        "top_ids": [
+          "8TQ2",
+          "8TQC",
+          "8TQW"
+        ]
+      },
+      "tractability": {
+        "SM_true": [],
+        "AB_true": [],
+        "PR_true": [
+          "Database Ubiquitination",
+          "Half-life Data"
+        ],
+        "OC_true": [],
+        "n_SM": 0,
+        "n_AB": 0,
+        "n_PR": 2
+      },
+      "chembl": {
+        "target_chembl_id": "CHEMBL5724623",
+        "n_mechanisms": 0,
+        "mechanisms": [],
+        "n_bioactivities": 6,
+        "max_pchembl": 6.89,
+        "n_potent_sub1uM": 1,
+        "top_compounds": [
+          {
+            "mol": "CHEMBL1232461",
+            "name": "MOLIBRESIB",
+            "type": "IC50",
+            "val": 130.0,
+            "units": "nM",
+            "pchembl": 6.89,
+            "year": 2011
+          }
+        ]
+      },
+      "open_targets_drugs": {
+        "count": 0,
+        "n_unique_drugs": 0,
+        "drugs": []
+      },
+      "phaseE": {
+        "axis": "novel",
+        "kd_mean": 0.854,
+        "conc_mean": 0.76,
+        "powered": "4/4",
+        "validated": true
+      }
+    },
+    {
+      "gene": "TADA2B",
+      "ensg": "ENSG00000173011",
+      "uniprot": "Q86TJ2",
+      "approvedName": "transcriptional adaptor 2B",
+      "biotype": "protein_coding",
+      "scorecard": {
+        "rank": "45",
+        "best_condition": "Stim48hr",
+        "composite_score": "0.6766",
+        "n_directions": "3.0",
+        "directions": "cytokine+context+network",
+        "therapeutic_direction": "suppress-inflammation",
+        "novelty": "difficult",
+        "module_name": "SAGA/Mediator coactivator",
+        "n_downstream": "5259",
+        "protein_class": "(inferred:protein_coding)",
+        "biotype": "protein_coding",
+        "has_genetic_support": "True",
+        "n_immune_disease_assoc": "0.0",
+        "dis_max_neglog10_p": "",
+        "disease_categories": "",
+        "sm_tractable": "False",
+        "ab_tractable": "False",
+        "best_sm_bucket": "",
+        "has_clinical_drug": "False",
+        "n_known_drugs": "0.0",
+        "known_drug_moa": "",
+        "novel_druggable": "False"
+      },
+      "alphafold": {
+        "has_model": true,
+        "global_plddt": 86.69,
+        "seq_len": 420,
+        "entry_id": "AF-Q86TJ2-F1",
+        "fraction_plddt": {
+          "very_low": 0.04,
+          "low": 0.079,
+          "confident": 0.267,
+          "very_high": 0.614
+        },
+        "model_version": 6,
+        "cif_url": "https://alphafold.ebi.ac.uk/files/AF-Q86TJ2-F1-model_v6.cif",
+        "pdb_url": "https://alphafold.ebi.ac.uk/files/AF-Q86TJ2-F1-model_v6.pdb",
+        "description": "Transcriptional adapter 2-beta"
+      },
+      "pdb": {
+        "n_experimental": 0,
+        "top_ids": []
+      },
+      "tractability": {
+        "SM_true": [],
+        "AB_true": [],
+        "PR_true": [
+          "Database Ubiquitination",
+          "Half-life Data"
+        ],
+        "OC_true": [],
+        "n_SM": 0,
+        "n_AB": 0,
+        "n_PR": 2
+      },
+      "chembl": {
+        "target_chembl_id": null,
+        "n_mechanisms": 0,
+        "mechanisms": [],
+        "n_bioactivities": 0,
+        "max_pchembl": null,
+        "n_potent_sub1uM": null,
+        "top_compounds": []
+      },
+      "open_targets_drugs": {
+        "count": 0,
+        "n_unique_drugs": 0,
+        "drugs": []
+      },
+      "phaseE": {
+        "axis": "novel",
+        "kd_mean": 0.918,
+        "conc_mean": 0.739,
+        "powered": "4/4",
+        "validated": true
+      }
+    },
+    {
+      "gene": "NSD1",
+      "ensg": "ENSG00000165671",
+      "uniprot": "Q96L73",
+      "approvedName": "nuclear receptor binding SET domain protein 1",
+      "biotype": "protein_coding",
+      "scorecard": {
+        "rank": "25",
+        "best_condition": "Stim48hr",
+        "composite_score": "0.7184",
+        "n_directions": "3.0",
+        "directions": "cytokine+polarization+network",
+        "therapeutic_direction": "suppress-inflammation",
+        "novelty": "novel-druggable",
+        "module_name": "",
+        "n_downstream": "2174",
+        "protein_class": "SINGLE PROTEIN",
+        "biotype": "protein_coding",
+        "has_genetic_support": "True",
+        "n_immune_disease_assoc": "1.0",
+        "dis_max_neglog10_p": "10.0",
+        "disease_categories": "asthma-allergy(1)",
+        "sm_tractable": "True",
+        "ab_tractable": "True",
+        "best_sm_bucket": "Structure with Ligand",
+        "has_clinical_drug": "False",
+        "n_known_drugs": "0.0",
+        "known_drug_moa": "",
+        "novel_druggable": "True"
+      },
+      "alphafold": {
+        "has_model": true,
+        "global_plddt": 44.69,
+        "seq_len": 2696,
+        "entry_id": "AF-Q96L73-F1",
+        "fraction_plddt": {
+          "very_low": 0.724,
+          "low": 0.02,
+          "confident": 0.131,
+          "very_high": 0.125
+        },
+        "model_version": 6,
+        "cif_url": "https://alphafold.ebi.ac.uk/files/AF-Q96L73-F1-model_v6.cif",
+        "pdb_url": "https://alphafold.ebi.ac.uk/files/AF-Q96L73-F1-model_v6.pdb",
+        "description": "Histone-lysine N-methyltransferase, H3 lysine-36 specific"
+      },
+      "pdb": {
+        "n_experimental": 4,
+        "top_ids": [
+          "3OOI",
+          "6KQP",
+          "6KQQ",
+          "8C5L"
+        ]
+      },
+      "tractability": {
+        "SM_true": [
+          "Structure with Ligand",
+          "High-Quality Ligand"
+        ],
+        "AB_true": [
+          "Human Protein Atlas loc"
+        ],
+        "PR_true": [
+          "UniProt Ubiquitination",
+          "Database Ubiquitination",
+          "Half-life Data",
+          "Small Molecule Binder"
+        ],
+        "OC_true": [],
+        "n_SM": 2,
+        "n_AB": 1,
+        "n_PR": 4
+      },
+      "chembl": {
+        "target_chembl_id": "CHEMBL3588738",
+        "n_mechanisms": 0,
+        "mechanisms": [],
+        "n_bioactivities": 147,
+        "max_pchembl": 6.96,
+        "n_potent_sub1uM": 10,
+        "top_compounds": [
+          {
+            "mol": "CHEMBL337173",
+            "name": null,
+            "type": "IC50",
+            "val": 110.0,
+            "units": "nM",
+            "pchembl": 6.96,
+            "year": 2023
+          },
+          {
+            "mol": "CHEMBL337173",
+            "name": null,
+            "type": "IC50",
+            "val": 110.0,
+            "units": "nM",
+            "pchembl": 6.96,
+            "year": 2024
+          },
+          {
+            "mol": "CHEMBL337173",
+            "name": null,
+            "type": "IC50",
+            "val": 150.0,
+            "units": "nM",
+            "pchembl": 6.82,
+            "year": 2023
+          },
+          {
+            "mol": "CHEMBL5408212",
+            "name": null,
+            "type": "IC50",
+            "val": 160.0,
+            "units": "nM",
+            "pchembl": 6.8,
+            "year": 2023
+          },
+          {
+            "mol": "CHEMBL5438312",
+            "name": null,
+            "type": "IC50",
+            "val": 214.0,
+            "units": "nM",
+            "pchembl": 6.67,
+            "year": 2023
+          }
+        ]
+      },
+      "open_targets_drugs": {
+        "count": 0,
+        "n_unique_drugs": 0,
+        "drugs": []
+      },
+      "phaseE": {
+        "axis": "novel",
+        "kd_mean": 0.923,
+        "conc_mean": 0.653,
+        "powered": "3/3",
+        "validated": true
+      }
+    },
+    {
+      "gene": "CHD4",
+      "ensg": "ENSG00000111642",
+      "uniprot": "Q14839",
+      "approvedName": "chromodomain helicase DNA binding protein 4",
+      "biotype": "protein_coding",
+      "scorecard": {
+        "rank": "66",
+        "best_condition": "Stim8hr",
+        "composite_score": "0.6265",
+        "n_directions": "3.0",
+        "directions": "cytokine+polarization+network",
+        "therapeutic_direction": "boost-immunity",
+        "novelty": "novel-druggable",
+        "module_name": "",
+        "n_downstream": "1516",
+        "protein_class": "SINGLE PROTEIN",
+        "biotype": "protein_coding",
+        "has_genetic_support": "False",
+        "n_immune_disease_assoc": "0.0",
+        "dis_max_neglog10_p": "",
+        "disease_categories": "",
+        "sm_tractable": "True",
+        "ab_tractable": "False",
+        "best_sm_bucket": "Structure with Ligand",
+        "has_clinical_drug": "False",
+        "n_known_drugs": "0.0",
+        "known_drug_moa": "",
+        "novel_druggable": "True"
+      },
+      "alphafold": {
+        "has_model": true,
+        "global_plddt": 64.62,
+        "seq_len": 1912,
+        "entry_id": "AF-Q14839-F1",
+        "fraction_plddt": {
+          "very_low": 0.354,
+          "low": 0.102,
+          "confident": 0.387,
+          "very_high": 0.157
+        },
+        "model_version": 6,
+        "cif_url": "https://alphafold.ebi.ac.uk/files/AF-Q14839-F1-model_v6.cif",
+        "pdb_url": "https://alphafold.ebi.ac.uk/files/AF-Q14839-F1-model_v6.pdb",
+        "description": "Chromodomain-helicase-DNA-binding protein 4"
+      },
+      "pdb": {
+        "n_experimental": 12,
+        "top_ids": [
+          "1MM2",
+          "1MM3",
+          "2EE1",
+          "2L5U",
+          "2L75",
+          "2N5N",
+          "4O9I",
+          "6BGG",
+          "6Q3M",
+          "6RYR",
+          "6RYU",
+          "8D4Y"
+        ]
+      },
+      "tractability": {
+        "SM_true": [
+          "Structure with Ligand"
+        ],
+        "AB_true": [],
+        "PR_true": [
+          "UniProt Ubiquitination",
+          "Database Ubiquitination",
+          "Half-life Data",
+          "Small Molecule Binder"
+        ],
+        "OC_true": [],
+        "n_SM": 1,
+        "n_AB": 0,
+        "n_PR": 4
+      },
+      "chembl": {
+        "target_chembl_id": "CHEMBL4105742",
+        "n_mechanisms": 0,
+        "mechanisms": [],
+        "n_bioactivities": 270,
+        "max_pchembl": 8.52,
+        "n_potent_sub1uM": 1,
+        "top_compounds": [
+          {
+            "mol": "CHEMBL2103840",
+            "name": "DINACICLIB",
+            "type": "Kd",
+            "val": 3.0,
+            "units": "nM",
+            "pchembl": 8.52,
+            "year": 2017
+          }
+        ]
+      },
+      "open_targets_drugs": {
+        "count": 0,
+        "n_unique_drugs": 0,
+        "drugs": []
+      },
+      "phaseE": {
+        "axis": "novel",
+        "kd_mean": 0.519,
+        "conc_mean": 0.381,
+        "powered": "4/4",
+        "validated": true
+      }
+    },
+    {
+      "gene": "SMARCB1",
+      "ensg": "ENSG00000099956",
+      "uniprot": "Q12824",
+      "approvedName": "SWI/SNF related BAF chromatin remodeling complex subunit B1",
+      "biotype": "protein_coding",
+      "scorecard": {
+        "rank": "80",
+        "best_condition": "Rest",
+        "composite_score": "0.6089",
+        "n_directions": "3.0",
+        "directions": "cytokine+polarization+network",
+        "therapeutic_direction": "suppress-inflammation",
+        "novelty": "novel-druggable",
+        "module_name": "",
+        "n_downstream": "2129",
+        "protein_class": "SINGLE PROTEIN",
+        "biotype": "protein_coding",
+        "has_genetic_support": "False",
+        "n_immune_disease_assoc": "0.0",
+        "dis_max_neglog10_p": "",
+        "disease_categories": "",
+        "sm_tractable": "True",
+        "ab_tractable": "False",
+        "best_sm_bucket": "Structure with Ligand",
+        "has_clinical_drug": "False",
+        "n_known_drugs": "0.0",
+        "known_drug_moa": "",
+        "novel_druggable": "True"
+      },
+      "alphafold": {
+        "has_model": true,
+        "global_plddt": 80.75,
+        "seq_len": 385,
+        "entry_id": "AF-Q12824-F1",
+        "fraction_plddt": {
+          "very_low": 0.109,
+          "low": 0.117,
+          "confident": 0.255,
+          "very_high": 0.519
+        },
+        "model_version": 6,
+        "cif_url": "https://alphafold.ebi.ac.uk/files/AF-Q12824-F1-model_v6.cif",
+        "pdb_url": "https://alphafold.ebi.ac.uk/files/AF-Q12824-F1-model_v6.pdb",
+        "description": "SWI/SNF-related matrix-associated actin-dependent regulator of chromatin subfamily B member 1"
+      },
+      "pdb": {
+        "n_experimental": 18,
+        "top_ids": [
+          "5AJ1",
+          "5GJK",
+          "5L7A",
+          "5L7B",
+          "6AX5",
+          "6KAG",
+          "6KZ7",
+          "6LTH",
+          "6LTJ",
+          "6LZP",
+          "6UCH",
+          "7VDV"
+        ]
+      },
+      "tractability": {
+        "SM_true": [
+          "Structure with Ligand"
+        ],
+        "AB_true": [],
+        "PR_true": [
+          "UniProt Ubiquitination",
+          "Database Ubiquitination",
+          "Half-life Data"
+        ],
+        "OC_true": [],
+        "n_SM": 1,
+        "n_AB": 0,
+        "n_PR": 3
+      },
+      "chembl": {
+        "target_chembl_id": "CHEMBL5725049",
+        "n_mechanisms": 0,
+        "mechanisms": [],
+        "n_bioactivities": 8,
+        "max_pchembl": 8.03,
+        "n_potent_sub1uM": 2,
+        "top_compounds": [
+          {
+            "mol": "CHEMBL5653589",
+            "name": null,
+            "type": "Kd",
+            "val": 9.241,
+            "units": "nM",
+            "pchembl": 8.03,
+            "year": 2018
+          },
+          {
+            "mol": "CHEMBL5653589",
+            "name": null,
+            "type": "ED50",
+            "val": 9.241,
+            "units": "nM",
+            "pchembl": 8.03,
+            "year": 2018
+          }
+        ]
+      },
+      "open_targets_drugs": {
+        "count": 0,
+        "n_unique_drugs": 0,
+        "drugs": []
+      },
+      "phaseE": {
+        "axis": "novel",
+        "kd_mean": 0.482,
+        "conc_mean": 0.587,
+        "powered": "4/4",
+        "validated": true
+      }
+    },
+    {
+      "gene": "STAT6",
+      "ensg": "ENSG00000166888",
+      "uniprot": "P42226",
+      "approvedName": "signal transducer and activator of transcription 6",
+      "biotype": "protein_coding",
+      "scorecard": {
+        "rank": "5",
+        "best_condition": "Stim48hr",
+        "composite_score": "0.8846",
+        "n_directions": "3.0",
+        "directions": "cytokine+polarization+context",
+        "therapeutic_direction": "boost-immunity",
+        "novelty": "novel-druggable",
+        "module_name": "",
+        "n_downstream": "1127",
+        "protein_class": "SINGLE PROTEIN",
+        "biotype": "protein_coding",
+        "has_genetic_support": "True",
+        "n_immune_disease_assoc": "55.0",
+        "dis_max_neglog10_p": "38.52287874528034",
+        "disease_categories": "asthma-allergy(55)",
+        "sm_tractable": "True",
+        "ab_tractable": "False",
+        "best_sm_bucket": "Structure with Ligand",
+        "has_clinical_drug": "False",
+        "n_known_drugs": "0.0",
+        "known_drug_moa": "",
+        "novel_druggable": "True"
+      },
+      "alphafold": {
+        "has_model": true,
+        "global_plddt": 76.5,
+        "seq_len": 847,
+        "entry_id": "AF-P42226-F1",
+        "fraction_plddt": {
+          "very_low": 0.241,
+          "low": 0.045,
+          "confident": 0.181,
+          "very_high": 0.534
+        },
+        "model_version": 6,
+        "cif_url": "https://alphafold.ebi.ac.uk/files/AF-P42226-F1-model_v6.cif",
+        "pdb_url": "https://alphafold.ebi.ac.uk/files/AF-P42226-F1-model_v6.pdb",
+        "description": "Signal transducer and activator of transcription 6"
+      },
+      "pdb": {
+        "n_experimental": 7,
+        "top_ids": [
+          "1OJ5",
+          "4Y5U",
+          "4Y5W",
+          "5D39",
+          "5NWM",
+          "5NWX",
+          "9BIG"
+        ]
+      },
+      "tractability": {
+        "SM_true": [
+          "Structure with Ligand",
+          "High-Quality Ligand",
+          "Druggable Family"
+        ],
+        "AB_true": [],
+        "PR_true": [
+          "Database Ubiquitination",
+          "Half-life Data",
+          "Small Molecule Binder"
+        ],
+        "OC_true": [],
+        "n_SM": 3,
+        "n_AB": 0,
+        "n_PR": 3
+      },
+      "chembl": {
+        "target_chembl_id": "CHEMBL5401",
+        "n_mechanisms": 0,
+        "mechanisms": [],
+        "n_bioactivities": 552,
+        "max_pchembl": 9.15,
+        "n_potent_sub1uM": 70,
+        "top_compounds": [
+          {
+            "mol": "CHEMBL487451",
+            "name": null,
+            "type": "IC50",
+            "val": 0.7,
+            "units": "nM",
+            "pchembl": 9.15,
+            "year": 2008
+          },
+          {
+            "mol": "CHEMBL593171",
+            "name": null,
+            "type": "IC50",
+            "val": 0.7,
+            "units": "nM",
+            "pchembl": 9.15,
+            "year": 2009
+          },
+          {
+            "mol": "CHEMBL470963",
+            "name": null,
+            "type": "IC50",
+            "val": 1.4,
+            "units": "nM",
+            "pchembl": 8.85,
+            "year": 2008
+          },
+          {
+            "mol": "CHEMBL488814",
+            "name": null,
+            "type": "IC50",
+            "val": 1.6,
+            "units": "nM",
+            "pchembl": 8.8,
+            "year": 2008
+          },
+          {
+            "mol": "CHEMBL519249",
+            "name": null,
+            "type": "IC50",
+            "val": 1.8,
+            "units": "nM",
+            "pchembl": 8.74,
+            "year": 2008
+          }
+        ]
+      },
+      "open_targets_drugs": {
+        "count": 0,
+        "n_unique_drugs": 0,
+        "drugs": []
+      },
+      "phaseE": {
+        "axis": "novel",
+        "kd_mean": 0.823,
+        "conc_mean": 0.566,
+        "powered": "4/4",
+        "validated": true
+      }
+    },
+    {
+      "gene": "TRIP12",
+      "ensg": "ENSG00000153827",
+      "uniprot": "Q14669",
+      "approvedName": "thyroid hormone receptor interactor 12",
+      "biotype": "protein_coding",
+      "scorecard": {
+        "rank": "22",
+        "best_condition": "Stim8hr",
+        "composite_score": "0.7285",
+        "n_directions": "3.0",
+        "directions": "cytokine+context+network",
+        "therapeutic_direction": "suppress-inflammation",
+        "novelty": "novel-druggable",
+        "module_name": "",
+        "n_downstream": "1829",
+        "protein_class": "(inferred:protein_coding)",
+        "biotype": "protein_coding",
+        "has_genetic_support": "True",
+        "n_immune_disease_assoc": "0.0",
+        "dis_max_neglog10_p": "",
+        "disease_categories": "",
+        "sm_tractable": "True",
+        "ab_tractable": "False",
+        "best_sm_bucket": "Structure with Ligand",
+        "has_clinical_drug": "False",
+        "n_known_drugs": "0.0",
+        "known_drug_moa": "",
+        "novel_druggable": "True"
+      },
+      "alphafold": {
+        "has_model": true,
+        "global_plddt": 66.75,
+        "seq_len": 1992,
+        "entry_id": "AF-Q14669-F1",
+        "fraction_plddt": {
+          "very_low": 0.346,
+          "low": 0.065,
+          "confident": 0.33,
+          "very_high": 0.26
+        },
+        "model_version": 6,
+        "cif_url": "https://alphafold.ebi.ac.uk/files/AF-Q14669-F1-model_v6.cif",
+        "pdb_url": "https://alphafold.ebi.ac.uk/files/AF-Q14669-F1-model_v6.pdb",
+        "description": "E3 ubiquitin-protein ligase TRIP12"
+      },
+      "pdb": {
+        "n_experimental": 5,
+        "top_ids": [
+          "9BKR",
+          "9BKS",
+          "9GKM",
+          "9GKN",
+          "9KEN"
+        ]
+      },
+      "tractability": {
+        "SM_true": [
+          "Structure with Ligand"
+        ],
+        "AB_true": [],
+        "PR_true": [
+          "Database Ubiquitination",
+          "Half-life Data"
+        ],
+        "OC_true": [],
+        "n_SM": 1,
+        "n_AB": 0,
+        "n_PR": 2
+      },
+      "chembl": {
+        "target_chembl_id": null,
+        "n_mechanisms": 0,
+        "mechanisms": [],
+        "n_bioactivities": 0,
+        "max_pchembl": null,
+        "n_potent_sub1uM": null,
+        "top_compounds": []
+      },
+      "open_targets_drugs": {
+        "count": 0,
+        "n_unique_drugs": 0,
+        "drugs": []
+      },
+      "phaseE": {
+        "axis": "novel",
+        "kd_mean": 0.835,
+        "conc_mean": 0.696,
+        "powered": "4/4",
+        "validated": true
+      }
+    },
+    {
+      "gene": "ARNT",
+      "ensg": "ENSG00000143437",
+      "uniprot": "P27540",
+      "approvedName": "aryl hydrocarbon receptor nuclear translocator",
+      "biotype": "protein_coding",
+      "scorecard": {
+        "rank": "44",
+        "best_condition": "Stim8hr",
+        "composite_score": "0.6774",
+        "n_directions": "3.0",
+        "directions": "cytokine+polarization+network",
+        "therapeutic_direction": "mixed",
+        "novelty": "novel-druggable",
+        "module_name": "",
+        "n_downstream": "2642",
+        "protein_class": "SINGLE PROTEIN",
+        "biotype": "protein_coding",
+        "has_genetic_support": "True",
+        "n_immune_disease_assoc": "1.0",
+        "dis_max_neglog10_p": "11.522878745280336",
+        "disease_categories": "asthma-allergy(1)",
+        "sm_tractable": "True",
+        "ab_tractable": "False",
+        "best_sm_bucket": "Structure with Ligand",
+        "has_clinical_drug": "False",
+        "n_known_drugs": "0.0",
+        "known_drug_moa": "",
+        "novel_druggable": "True"
+      },
+      "alphafold": {
+        "has_model": true,
+        "global_plddt": 55.5,
+        "seq_len": 789,
+        "entry_id": "AF-P27540-F1",
+        "fraction_plddt": {
+          "very_low": 0.587,
+          "low": 0.077,
+          "confident": 0.144,
+          "very_high": 0.191
+        },
+        "model_version": 6,
+        "cif_url": "https://alphafold.ebi.ac.uk/files/AF-P27540-F1-model_v6.cif",
+        "pdb_url": "https://alphafold.ebi.ac.uk/files/AF-P27540-F1-model_v6.pdb",
+        "description": "Aryl hydrocarbon receptor nuclear translocator"
+      },
+      "pdb": {
+        "n_experimental": 46,
+        "top_ids": [
+          "1X0O",
+          "2A24",
+          "2B02",
+          "2HV1",
+          "2K7S",
+          "3F1N",
+          "3F1O",
+          "3F1P",
+          "3H7W",
+          "3H82",
+          "4EQ1",
+          "4GHI"
+        ]
+      },
+      "tractability": {
+        "SM_true": [
+          "Structure with Ligand",
+          "High-Quality Ligand"
+        ],
+        "AB_true": [],
+        "PR_true": [
+          "UniProt Ubiquitination",
+          "Database Ubiquitination",
+          "Half-life Data",
+          "Small Molecule Binder"
+        ],
+        "OC_true": [],
+        "n_SM": 2,
+        "n_AB": 0,
+        "n_PR": 4
+      },
+      "chembl": {
+        "target_chembl_id": "CHEMBL5618",
+        "n_mechanisms": 0,
+        "mechanisms": [],
+        "n_bioactivities": 25,
+        "max_pchembl": null,
+        "n_potent_sub1uM": 0,
+        "top_compounds": []
+      },
+      "open_targets_drugs": {
+        "count": 0,
+        "n_unique_drugs": 0,
+        "drugs": []
+      },
+      "phaseE": {
+        "axis": "novel",
+        "kd_mean": 0.893,
+        "conc_mean": 0.691,
+        "powered": "4/4",
+        "validated": true
+      }
+    },
+    {
+      "gene": "SEL1L",
+      "ensg": "ENSG00000071537",
+      "uniprot": "Q9UBV2",
+      "approvedName": "SEL1L adaptor subunit of SYVN1 ubiquitin ligase",
+      "biotype": "protein_coding",
+      "scorecard": {
+        "rank": "124",
+        "best_condition": "Stim8hr",
+        "composite_score": "0.5725",
+        "n_directions": "3.0",
+        "directions": "cytokine+polarization+network",
+        "therapeutic_direction": "suppress-inflammation",
+        "novelty": "novel-druggable",
+        "module_name": "",
+        "n_downstream": "936",
+        "protein_class": "(inferred:protein_coding)",
+        "biotype": "protein_coding",
+        "has_genetic_support": "True",
+        "n_immune_disease_assoc": "0.0",
+        "dis_max_neglog10_p": "",
+        "disease_categories": "",
+        "sm_tractable": "False",
+        "ab_tractable": "True",
+        "best_sm_bucket": "",
+        "has_clinical_drug": "False",
+        "n_known_drugs": "0.0",
+        "known_drug_moa": "",
+        "novel_druggable": "True"
+      },
+      "alphafold": {
+        "has_model": true,
+        "global_plddt": 81.0,
+        "seq_len": 794,
+        "entry_id": "AF-Q9UBV2-F1",
+        "fraction_plddt": {
+          "very_low": 0.164,
+          "low": 0.044,
+          "confident": 0.203,
+          "very_high": 0.589
+        },
+        "model_version": 6,
+        "cif_url": "https://alphafold.ebi.ac.uk/files/AF-Q9UBV2-F1-model_v6.cif",
+        "pdb_url": "https://alphafold.ebi.ac.uk/files/AF-Q9UBV2-F1-model_v6.pdb",
+        "description": "Protein sel-1 homolog 1"
+      },
+      "pdb": {
+        "n_experimental": 5,
+        "top_ids": [
+          "8KES",
+          "8KET",
+          "8KEV",
+          "9LWU",
+          "9UAV"
+        ]
+      },
+      "tractability": {
+        "SM_true": [],
+        "AB_true": [
+          "UniProt SigP or TMHMM"
+        ],
+        "PR_true": [
+          "Database Ubiquitination",
+          "Half-life Data"
+        ],
+        "OC_true": [],
+        "n_SM": 0,
+        "n_AB": 1,
+        "n_PR": 2
+      },
+      "chembl": {
+        "target_chembl_id": null,
+        "n_mechanisms": 0,
+        "mechanisms": [],
+        "n_bioactivities": 0,
+        "max_pchembl": null,
+        "n_potent_sub1uM": null,
+        "top_compounds": []
+      },
+      "open_targets_drugs": {
+        "count": 0,
+        "n_unique_drugs": 0,
+        "drugs": []
+      },
+      "phaseE": {
+        "axis": "novel",
+        "kd_mean": 0.94,
+        "conc_mean": 0.42,
+        "powered": "3/3",
+        "validated": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "tag": "D4_Rest_Stim8hr",
+  "integrate_donor": false,
+  "shards": [
+    {
+      "donor": "D4",
+      "condition": "Rest",
+      "path": "/Users/meng01/qiuchen/project/hackathon/perturb-seq/perturb-seq_data/cell_level/D4_Rest.assigned_guide.h5ad"
+    },
+    {
+      "donor": "D4",
+      "condition": "Stim8hr",
+      "path": "/Users/meng01/qiuchen/project/hackathon/perturb-seq/perturb-seq_data/cell_level/D4_Stim8hr.assigned_guide.h5ad"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+ "n_leiden_clusters": 13,
+ "n_control_cells": 80000,
+ "axis_recovery_2cluster": "17/19 (89%)",
+ "silhouette_apriori_axis": 0.349,
+ "silhouette_data_2cluster": 0.389,
+ "ward_cluster1_TCRproximal": [
+  "LAT",
+  "PLCG1",
+  "CD247",
+  "CD3E",
+  "ZAP70",
+  "VAV1",
+  "SMARCB1"
+ ],
+ "ward_cluster2_novel": [
+  "SMARCE1",
+  "SGF29",
+  "MED24",
+  "MED12",
+  "TADA2B",
+  "NSD1",
+  "CHD4",
+  "STAT6",
+  "TRIP12",
+  "ARNT",
+  "SEL1L",
+  "SIK3"
+ ],
+ "crossovers": {
+  "SMARCE1": "scorecard-flagship but SWI/SNF remodeler -> clusters with novel axis",
+  "SMARCB1": "novel remodeler but activation-loss profile -> clusters with TCR-proximal"
+ },
+ "program_contrast_mwu_p": {
+  "activation": 0.0001,
+  "treg": 0.0001,
+  "cytokine": 0.0001,
+  "exhaustion": 0.0047,
+  "naive_memory": 0.0066,
+  "effector": 0.2441
+ },
+ "magnitude_norm_TCRproximal": 0.958,
+ "magnitude_norm_chromatinTF": 0.404,
+ "magnitude_mwu_p": 0.0003,
+ "occupancy_redistribution_TCRproximal": 0.611,
+ "occupancy_redistribution_chromatinTF": 0.263,
+ "occupancy_mwu_p": 0.0001
+}

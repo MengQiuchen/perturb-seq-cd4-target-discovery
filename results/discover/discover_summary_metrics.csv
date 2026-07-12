@@ -1,0 +1,27 @@
+category,metric,value,note
+Design,Donors,4,"CE0006864, CE0008162, CE0008678, CE0010866"
+Design,Conditions,3,"Rest, Stim8hr, Stim48hr"
+Design,Samples,12,balanced 4×3 factorial
+Design,Sequencing platform,Ultima,GEMX_flex_v2 (10x Flex)
+Pseudobulk,Profiles,278684,guide×donor×condition
+Pseudobulk,Genes,18129,
+Pseudobulk,Unique perturbed genes,12731,
+Pseudobulk,Unique guides,25954,≈2 guides/gene
+Pseudobulk,Targeting profiles,267666,
+Pseudobulk,Non-targeting (NTC) profiles,11018,
+Pseudobulk,Median cells/profile,49,range 1–10717
+Pseudobulk,Pass keep_for_DE,235064,"84% of 278,684"
+DE_stats,Target contrasts,33983,target×condition
+DE_stats,Tested genes,10282,
+DE_stats,Unique target genes,11526,
+DE_stats,On-target significant,21221,62% knockdown efficacy
+DE_stats,Median DE genes/perturbation,2,"mean 61, max 5,920"
+DE_stats,Mean DE genes: Rest,53.1,
+DE_stats,Mean DE genes: Stim8hr,68.9,
+DE_stats,Mean DE genes: Stim48hr,59.4,
+DE_stats,low_target_gex flagged,7806,
+DE_stats,distal_offtarget flagged,433,
+Cell-level (D4_Rest),Cells,2693903,single shard
+Cell-level (D4_Rest),Genes,18130,
+Cell-level (D4_Rest),Cells with targeting guide,2216460,
+Cell-level (D4_Rest),Cells with NTC guide,76821,

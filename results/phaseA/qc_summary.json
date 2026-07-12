@@ -1,0 +1,22 @@
+{
+  "n_perturbation_condition_rows": 33983,
+  "n_unique_targets": 11526,
+  "n_genes_measured": 10282,
+  "rows_per_condition": {
+    "Rest": 11287,
+    "Stim8hr": 11415,
+    "Stim48hr": 11281
+  },
+  "ontarget_significant_rate": 0.6244592884677633,
+  "ontarget_effect_size_median": -6.30463745267495,
+  "flag_rates": {
+    "distal_offtarget_flag": 0.01274166495012212,
+    "neighboring_gene_KD": 0.07706794573757467,
+    "low_target_gex": 0.2297030868375364
+  },
+  "n_guides_dist": {
+    "2.0": 30108,
+    "1.0": 3859,
+    "3.0": 13
+  }
+}

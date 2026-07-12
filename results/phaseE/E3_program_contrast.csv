@@ -1,0 +1,7 @@
+program,tcr_proximal_meanΔ,chromatin_tf_meanΔ,difference,mwu_p
+naive_memory,0.232,0.064,0.168,0.0066
+effector,-0.391,-0.205,-0.187,0.2441
+activation,-0.518,0.017,-0.536,0.0001
+treg,-0.398,0.01,-0.408,0.0001
+cytokine,-0.456,-0.075,-0.38,0.0001
+exhaustion,-0.178,-0.028,-0.15,0.0047

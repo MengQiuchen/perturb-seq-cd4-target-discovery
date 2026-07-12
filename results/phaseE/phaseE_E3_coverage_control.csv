@@ -1,0 +1,5 @@
+condition,ward_recovery_pct,note
+D1 native,89,—
+D2 native,100,—
+D3 native,22,—
+D1 downsampled→D3 depths,86,±12 (100 reps)

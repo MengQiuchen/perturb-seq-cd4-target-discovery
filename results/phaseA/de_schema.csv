@@ -1,0 +1,28 @@
+field,dtype,n_missing,summary
+target_contrast_gene_name,category,0,"11526 categories; top: ZZEF1=3, A1BG=3, A2M=3"
+culture_condition,category,0,"3 categories; top: Stim8hr=11415, Rest=11287, Stim48hr=11281"
+target_contrast,category,0,"11526 categories; top: OCLM=3, ENSG00000000003=3, ENSG00000000419=3"
+chunk,category,0,"681 categories; top: 680=50, 0=50, 1=50"
+n_cells_target,float64,0,min=17 med=539 max=1.15e+04
+n_up_genes,int64,0,min=0 med=1 max=4.15e+03
+n_down_genes,int64,0,min=0 med=1 max=2.43e+03
+n_total_de_genes,int64,0,min=0 med=2 max=5.92e+03
+ontarget_effect_size,float64,0,min=-58.5 med=-6.3 max=7.09
+ontarget_significant,bool,0,True=21221 (62.4%)
+target_baseMean,float64,5850,min=0.0982 med=27.4 max=4.4e+03
+neighboring_gene_KD,bool,0,True=2619 (7.7%)
+n_total_genes_category,category,0,"5 categories; top: 2-10 DE genes=13767, 1 DE gene=7420, no effect=5226"
+distal_offtarget_flag,bool,0,True=433 (1.3%)
+low_target_gex,bool,0,True=7806 (23.0%)
+n_guides,float64,3,min=1 med=2 max=3
+single_guide_estimate,bool,0,True=3859 (11.4%)
+n_downstream,int64,0,min=0 med=2 max=5.92e+03
+guide_correlation_signif,float64,17836,min=-1 med=0.621 max=1
+guide_correlation_signif_pval,float64,17836,min=0 med=0.361 max=1
+guide_correlation_all,float64,7943,min=-0.227 med=0.0648 max=0.714
+guide_correlation_all_pval,float64,7943,min=0 med=3.87e-13 max=1
+guide_n_signif_ontarget,float64,7943,min=0 med=2 max=2
+donor_correlation_all_mean,float64,29103,min=-0.167 med=0.111 max=0.729
+donor_correlation_all_min,float64,29103,min=-0.314 med=0.0762 max=0.705
+donor_correlation_hits_mean,float64,29103,min=-0.723 med=0.731 max=0.988
+donor_correlation_hits_min,float64,29103,min=-0.771 med=0.676 max=0.983
