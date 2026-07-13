@@ -15,7 +15,8 @@ English reports for the CD4⁺ T-Cell Perturb-seq drug-target discovery project.
 | `PHASE_D_RESULTS.md` | Single-cell validation of the 7 flagship targets (donor D4). |
 | `PHASE_E_RESULTS.md` | Cross-donor reproduction (4 donors) + novel chromatin/TF-axis validation (19 targets). |
 | `PHASE_E_METHODS.md` | Methods reference for the Phase E single-cell pipeline. |
-| `TARGET_DOSSIERS.md` | Phase F translational dossiers for the 19 validated targets (structure, chemistry, tractability, clinical, genetics). |
+| `PHASE_F_RESULTS.md` | Phase F translational readiness — cross-track ranking table for the 19 targets (structure, chemistry, tractability, clinical, genetics). |
+| `TARGET_DOSSIERS.md` | Phase F translational dossiers — full narrative per-target dossiers (companion to the table above). |
 | `PHASE_G_RESULTS.md` | Phase G deep single-cell analysis — Tier 1 (dose-response, responder fraction, baseline sensitivity). |
 | `PHASE_G_TIER2_RESULTS.md` | Phase G Tier 2 — cross-donor differential abundance, rare-state safety, co-expression rewiring. |
 | `PHASE_G_TIER3_RESULTS.md` | Phase G Tier 3 — activation-trajectory checkpoint, dual-guide concordance. |

@@ -1,4 +1,38 @@
 # ─────────────────────────────────────────────────────────────
+# Secrets & credentials — NEVER commit (public repo)
+# ─────────────────────────────────────────────────────────────
+.env
+.env.*
+*.env
+!*.env.example
+*.pem
+*.key
+*_rsa
+*_rsa.pub
+*_ed25519
+*_ed25519.pub
+id_rsa*
+id_ed25519*
+*.p12
+*.pfx
+*.keystore
+*.jks
+.netrc
+.pgpass
+.htpasswd
+credentials
+credentials.*
+*credentials*.json
+aws_credentials
+.aws/
+.ssh/
+secrets.*
+*secret*.y*ml
+*.token
+.npmrc
+.pypirc
+
+# ─────────────────────────────────────────────────────────────
 # Chinese-language counterpart documents (English is the release language)
 # ─────────────────────────────────────────────────────────────
 docs/zh/
