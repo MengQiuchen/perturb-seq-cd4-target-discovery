@@ -16,7 +16,12 @@ Discovery and translational prioritization of **novel druggable regulators of CD
 
 **Bottom line.** The pipeline recovers established immune drug targets *de novo* (validating the logic) and nominates a genetically-supported, single-cell-validated, structurally-tractable set of **novel** CD4⁺ T-cell regulators — headed by STAT6 and a drug-naive chromatin/transcriptional axis — as fresh therapeutic entry points for autoimmune/allergic and immuno-oncology indications.
 
-See **[`docs/FULL_REPORT.md`](docs/FULL_REPORT.md)** for the complete consolidated report (Phases A–G, methods, figures, and an explicit boundaries/confidence section).
+## Headline deliverables
+
+Two top-level files are the fastest way into this work:
+
+- **[`FULL_REPORT.md`](FULL_REPORT.md)** — the complete consolidated report in English (Phases A–G): executive summary, data, methods and parameters, per-phase results with all 28 embedded figures, an explicit boundaries/confidence section, and the deliverables list. **Read this first.** (Also available under [`docs/FULL_REPORT.md`](docs/FULL_REPORT.md).)
+- **[`FINAL_TARGET_LIST.csv`](FINAL_TARGET_LIST.csv)** / **[`FINAL_TARGET_LIST.md`](FINAL_TARGET_LIST.md)** — the project's headline output: the **19 single-cell-validated CD4⁺ T-cell regulators**, ranked by translational readiness, with validation, structure, chemical-matter, tractability, clinical, and genetics evidence per target. The `.csv` is machine-readable; the `.md` is the same table with column definitions and how the list was built.
 
 ---
 
@@ -27,6 +32,9 @@ perturb-seq-cd4-target-discovery/
 ├── README.md                 # this file
 ├── LICENSE                   # MIT
 ├── CITATION.cff              # how to cite this work + the source dataset
+├── FULL_REPORT.md            # ★ consolidated Phases A–G report (English) — read this first
+├── FINAL_TARGET_LIST.csv     # ★ final ranked list of 19 validated targets (machine-readable)
+├── FINAL_TARGET_LIST.md      #   same list with column definitions + provenance
 ├── docs/                     # English reports (start here)
 │   ├── FULL_REPORT.md        # consolidated Phases A–G report — read this first
 │   ├── PROJECT.md            # objective + status

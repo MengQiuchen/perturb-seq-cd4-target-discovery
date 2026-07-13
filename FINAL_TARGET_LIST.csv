@@ -1,0 +1,20 @@
+Rank,Gene,Ensembl,UniProt,Axis,Therapeutic direction,Novelty,Phase E KD (mean frac),Phase E concordance (mean r),Donors powered,AlphaFold mean pLDDT,Longest folded domain (aa),# experimental PDB,Best SM tractability,ChEMBL bioactivities,ChEMBL max pChEMBL,Known drugs (Open Targets),# immune GWAS,Translational readiness
+1,STAT6,ENSG00000166888,P42226,chromatin/TF,boost-immunity,novel-druggable,0.823,0.566,4/4,76.51,236,7,High-Quality Ligand,552,9.15,0,55.0,6.5
+2,ZAP70,ENSG00000115085,P43403,signaling,suppress-inflammation,novel-druggable,0.909,0.782,3/3,84.92,254,15,High-Quality Pocket,2390,8.1,0,1.0,6.1
+3,SIK3,ENSG00000160584,Q9Y2K2,signaling,suppress-inflammation,novel-druggable,0.867,0.523,3/3,50.65,277,5,High-Quality Ligand,809,9.34,0,0.0,4.5
+4,MED24,ENSG00000008838,O75448,chromatin/TF,mixed,novel-druggable,0.957,0.796,4/4,84.14,188,10,Structure with Ligand,0,,0,12.0,4.2
+5,PLCG1,ENSG00000124181,P19174,signaling,suppress-inflammation,novel-druggable,0.882,0.459,4/4,82.75,265,6,High-Quality Ligand,438,6.75,0,0.0,4.0
+6,VAV1,ENSG00000141968,P15498,signaling,suppress-inflammation,novel-druggable,0.924,0.659,3/3,86.4,271,10,Structure with Ligand,1,8.98,0,0.0,4.0
+7,NSD1,ENSG00000165671,Q96L73,chromatin/TF,suppress-inflammation,novel-druggable,0.923,0.653,3/3,44.68,190,4,High-Quality Ligand,147,6.96,0,1.0,3.1
+8,SEL1L,ENSG00000071537,Q9UBV2,chromatin/TF,suppress-inflammation,novel-druggable,0.94,0.42,3/3,81.01,370,5,—,0,,0,0.0,3.0
+9,CD247,ENSG00000198821,P20963,signaling,suppress-inflammation,novel-druggable,0.716,0.506,4/4,62.4,0,38,Structure with Ligand,0,,0,46.0,2.5
+10,SMARCE1,ENSG00000073584,Q969G3,chromatin/TF,suppress-inflammation,novel-druggable,0.877,0.743,3/3,69.55,106,9,Structure with Ligand,8,6.95,0,37.0,2.5
+11,SGF29,ENSG00000176476,Q96ES7,chromatin/TF,suppress-inflammation,novel-druggable,0.936,0.692,4/4,91.75,99,8,High-Quality Pocket,1,,0,5.0,2.5
+12,CD3E,ENSG00000198851,P07766,signaling,suppress-inflammation,known-drug-target,0.956,0.847,4/4,73.07,82,44,Med-Quality Pocket,0,,22,3.0,1.8
+13,ARNT,ENSG00000143437,P27540,chromatin/TF,mixed,novel-druggable,0.893,0.691,4/4,55.5,105,46,High-Quality Ligand,25,,0,1.0,1.6
+14,TADA2B,ENSG00000173011,Q86TJ2,chromatin/TF,suppress-inflammation,difficult,0.918,0.739,4/4,86.67,126,0,—,0,,0,0.0,1.5
+15,SMARCB1,ENSG00000099956,Q12824,chromatin/TF,suppress-inflammation,novel-druggable,0.482,0.587,4/4,80.77,81,18,Structure with Ligand,8,8.03,0,0.0,1.5
+16,TRIP12,ENSG00000153827,Q14669,chromatin/TF,suppress-inflammation,novel-druggable,0.835,0.696,4/4,66.77,224,5,Structure with Ligand,0,,0,0.0,1.5
+17,CHD4,ENSG00000111642,Q14839,chromatin/TF,boost-immunity,novel-druggable,0.519,0.381,4/4,64.62,126,12,Structure with Ligand,270,8.52,0,0.0,1.0
+18,LAT,ENSG00000213658,O43561,signaling,suppress-inflammation,novel-druggable,0.847,0.671,4/4,59.35,0,0,—,2,,0,0.0,0.0
+19,MED12,ENSG00000184634,Q93074,chromatin/TF,suppress-inflammation,difficult,0.854,0.76,4/4,65.12,131,3,—,6,6.89,0,0.0,0.0
